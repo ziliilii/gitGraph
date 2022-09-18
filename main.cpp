@@ -5,6 +5,7 @@
 #include <sstream>
 #include <fstream>
 #include <string>
+#include <queue>
 #include <string.h>
 
 using namespace std;
@@ -114,14 +115,19 @@ void read_commits() {
 
     while(getline(ifile, line)) {
 
+        // if(cnt == 3) break;
+        
+
         string out;
         istringstream in(line);
         in >> out;
 
 
 
+
         if (!line.compare(start_flag)) {
             idx = 0;
+            cnt++;
             continue;
         }
 
@@ -132,7 +138,7 @@ void read_commits() {
             case 0:   // 一个新的提交
                 commit_ish = out;
                 GitCommit::commit_list[commit_ish] = new GitCommit(commit_ish);
-                first_commit = GitCommit::commit_list[commit_ish];
+                
                 idx++;
                 break;
             case 1:   // tree对象
@@ -143,12 +149,13 @@ void read_commits() {
                 break;
             case 2:  // 获得它的父亲
                 if (GitCommit::commit_list.size() == 1) {    //  第一个提交没有父亲
-
+                    first_commit = GitCommit::commit_list[commit_ish];
                     idx ++;
                     break;
                 }
                 do {
                     GitCommit::commit_list[commit_ish]->add_parents(out);
+                    GitCommit::commit_list[out]->add_child(commit_ish);
                 } while(in >> out);
                 
                 idx ++;
@@ -187,12 +194,39 @@ void read_commits() {
         }
 
     }
-    cout << "commit数量: " << GitCommit::commit_list.size() << endl;;
+    cout << "commit数量: " << GitCommit::commit_list.size() << endl;
+    // cout << "child: " << GitCommit::commit_list["440ecc9"]->children[0]->commit_ish << endl;
+    // cout << "p:" << GitCommit::commit_list["dfb77fb"]->pcnt << endl;
 }
 
 void get_file_stat() {
     cout << "初始化..." << endl;
     file_list_init();  
+    // first_commit->print_file_list();
+
+    queue<GitCommit*> q;
+    q.push(first_commit);
+    while(q.size()) {
+        auto cur = q.front();
+
+        q.pop();
+        cur->diff_parents(git_dir);
+
+
+
+       for(auto& child: cur->children){
+
+            if(child->pcnt == 1){
+                q.push(child);
+
+                child->pcnt = child->parents.size();
+            } else {
+                child->pcnt = child->pcnt - 1;
+            }
+        }
+
+
+    }
     first_commit->print_file_list();
 }
 

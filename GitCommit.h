@@ -7,6 +7,7 @@
 #include <unordered_map>
 #include <iostream>
 #include <string>
+#include <sstream>
 
 
 using namespace std;
@@ -43,7 +44,7 @@ public:
     static unordered_map<string, FileHead*> file_list;   // 文件名 + blob_ish 作为 key
     static unordered_map<string, vector<FileHead*>> same_name_file;   // 文件名 作为 key
 
-    void diff_parents();
+    void diff_parents(string&);
 
     void print_file_list();
 
