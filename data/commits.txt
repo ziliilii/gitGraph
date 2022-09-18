@@ -1,0 +1,4697 @@
+***adfa*asdfo**
+ 440ecc9 
+ 648e59e 
+  
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 14:41:06 2019 +0800 
+ [init] Initialize the project structure. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ dfb77fb 
+ 6b7f592 
+ 440ecc9 
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 14:58:21 2019 +0800 
+ [config] Add dependencies for JDT, jgrapht, and neo4j. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c4806a1 
+ cf82029 
+ dfb77fb 
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 15:10:52 2019 +0800 
+ [feature] Migrate programs from the test field. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6ffa3b2 
+ 783a35a 
+ c4806a1 
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 15:20:35 2019 +0800 
+ [config] Add dependencier for slf4j and log4j. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3cd15d3 
+ 7ced59c 
+ 6ffa3b2 
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 15:22:26 2019 +0800 
+ [refactor] Extract the test main method into the Main.java. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 61d295b 
+ 6265aae 
+ 3cd15d3 
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 15:30:47 2019 +0800 
+ [chore] Add the source folder for the intent classifying. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 140d307 
+ 9f0e0d4 
+ 61d295b 
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 15:32:16 2019 +0800 
+ [chore] Add gradle wrapper. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2d7bd6e 
+ 04e09b0 
+ 140d307 
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 15:33:55 2019 +0800 
+ [fix] Add missing imports in DataCollector. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3b85a1e 
+ 3a66881 
+ 2d7bd6e 
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 15:37:17 2019 +0800 
+ [chore] Replace printing with logger. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 27a71f7 
+ eab11ff 
+ 3b85a1e 
+ Symbolk 
+ symbolk@163.com 
+ Sun Dec 1 15:55:25 2019 +0800 
+ [config] Add configuration file for log4j. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ bc8d895 
+ 7f001bd 
+ 27a71f7 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 2 14:02:55 2019 +0800 
+ [fix] Fix wrong assignment of CU. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2bf6417 
+ 362c3fb 
+ bc8d895 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 2 17:25:45 2019 +0800 
+ [refactor] Rename Side to Version. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ dcd07cb 
+ 6bbcd0f 
+ 2bf6417 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 2 18:05:18 2019 +0800 
+ [refactor] Refactor the project structure to be compatible with UI. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 977cb37 
+ 8d36778 
+ dcd07cb 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 2 20:15:47 2019 +0800 
+ [feature] Add visit methods to collect data/control flow symbols. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 579f1f3 
+ b8408d3 
+ 977cb37 
+ Symbolk 
+ symbolk@163.com 
+ Tue Dec 3 21:00:31 2019 +0800 
+ [feature] Add change type for diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5bb0289 
+ 4c6bd0e 
+ 579f1f3 
+ Symbolk 
+ symbolk@163.com 
+ Tue Dec 3 22:06:17 2019 +0800 
+ [refactor] Group enums into constant package. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d49a91a 
+ 402c82a 
+ 5bb0289 
+ Symbolk 
+ symbolk@163.com 
+ Tue Dec 3 22:12:52 2019 +0800 
+ [feature] Add file type for diff file and diff hunk. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0341d50 
+ 5428bed 
+ d49a91a 
+ Symbolk 
+ symbolk@163.com 
+ Tue Dec 3 23:12:57 2019 +0800 
+ [refactor] Bind diff hunks with diff files when collecting. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5857d4b 
+ 095a98c 
+ 0341d50 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 4 10:10:14 2019 +0800 
+ [refactor] Extract method to check file type. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5474cf7 
+ d95fb48 
+ 5857d4b 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 4 10:22:50 2019 +0800 
+ [feature] Add content type to hunk. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ cf416b0 
+ 8fb7f9d 
+ 5474cf7 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 4 11:04:14 2019 +0800 
+ [feature] Add file index in diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 7a47710 
+ c47b7f1 
+ cf416b0 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 9 22:42:15 2019 +0800 
+ [gumtree] Add gumtree jars as dependencies and an example test file. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1ac1b36 
+ f033144 
+ 7a47710 
+ chuncen 
+ lichuncen@gmail.com 
+ Wed Dec 11 11:18:43 2019 +0800 
+ 19.12.11 11:18 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4342b2a 
+ 29d0582 
+ 1ac1b36 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 11 19:48:34 2019 +0800 
+ [lib] Add mongo driver and corresponding example. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e351b52 
+ 992cecb 
+ 4342b2a 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 12 11:22:05 2019 +0800 
+ [refactor] Extract jdt parsing functions to JDTService. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 30ca41b 
+ b6a5f88 
+ e351b52 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 12 15:47:18 2019 +0800 
+ [refactor] Move DataCollector to core. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b82c74f 
+ 4b30093 
+ 30ca41b 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 12 15:47:52 2019 +0800 
+ [feature] Add naive definition of graph and builder. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 52885f3 
+ 8598f5f 
+ b82c74f 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 12 15:59:27 2019 +0800 
+ [refactor] Extract the system-dependent config. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 24e358f 
+ 5a5ecb0 
+ 52885f3 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 12 17:36:31 2019 +0800 
+ [feature] Build the fundamental tree structure from AST. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ce6ea80 
+ 43893eb 
+ 24e358f 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 12 18:51:44 2019 +0800 
+ [feature] Add functions to export graph in dot format. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a24612e 
+ 57e5477 
+ ce6ea80 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 12 19:31:40 2019 +0800 
+ [fix] Add package node to gather compilation units. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 21b8f8f 
+ 9c66ca8 
+ a24612e 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 13 11:27:11 2019 +0800 
+ [feature] Add method to get all declarations inside an ASTNode. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 97bd6e3 
+ e7f6080 
+ 21b8f8f 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 13 14:20:59 2019 +0800 
+ [refactor] Extract jdt related methods from visitor into JDTService. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 60b37b7 
+ 0c6a37a 
+ 97bd6e3 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 13 15:18:40 2019 +0800 
+ [refactor] Gather visitors into one package. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f3d2d73 
+ 81d7043 
+ 60b37b7 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 13 15:51:03 2019 +0800 
+ [feature] Collect method info from method declarations. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1c0e498 
+ 9ded63a 
+ f3d2d73 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 13 17:55:21 2019 +0800 
+ [feature] Add entity info and Build edges for method call. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8cd58b0 
+ a8ee918 
+ 1c0e498 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 16 10:45:18 2019 +0800 
+ [feature] Create edges for field access. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b7b67d7 
+ 972310f 
+ 8cd58b0 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 16 11:26:35 2019 +0800 
+ [chore] Rename some variables. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c8626b4 
+ c5e71ad 
+ b7b67d7 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 16 11:59:20 2019 +0800 
+ [feature] Add class and interface info in the pool. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0eaf1c2 
+ 83f9f4f 
+ c8626b4 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 16 14:57:00 2019 +0800 
+ [io] Add shape attribute for the vertex in graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4dd1c76 
+ 85aeb68 
+ 0eaf1c2 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 16 15:08:31 2019 +0800 
+ [io] Add color and style label for the edge in graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ cbd015c 
+ a9a242c 
+ 4dd1c76 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 16 17:25:50 2019 +0800 
+ [feature] Filter diff hunks that contains actual code. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 24dc350 
+ 4e0c354 
+ 1c0e498 
+ chuncen 
+ lichuncen@gmail.com 
+ Tue Dec 17 13:57:36 2019 +0800 
+ [feature] Add commitLog collector function 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f05e85d 
+ ea9d88d 
+ cbd015c 
+ Symbolk 
+ symbolk@163.com 
+ Tue Dec 17 16:30:11 2019 +0800 
+ [example] Add example code for gumtree editscript generator. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9caacbe 
+ da6f3d9 
+ 24dc350 f05e85d 
+ chuncen 
+ lichuncen@gmail.com 
+ Tue Dec 17 16:31:29 2019 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 731bf65 
+ 8b5ae52 
+ 9caacbe 
+ chuncen 
+ lichuncen@gmail.com 
+ Wed Dec 18 03:47:01 2019 +0800 
+ [feature] Add commitLog stored function 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5168615 
+ 4ac1b00 
+ 731bf65 
+ chuncen 
+ lichuncen@gmail.com 
+ Wed Dec 18 04:24:21 2019 +0800 
+ [feature] Add All Log Details collector function 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b219bea 
+ f0fc52c 
+ 5168615 
+ chuncen 
+ lichuncen@gmail.com 
+ Wed Dec 18 04:28:35 2019 +0800 
+ [refactor] Rename the class and methods 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6d86022 
+ 3996a29 
+ b219bea 
+ chuncen 
+ lichuncen@gmail.com 
+ Wed Dec 18 05:07:42 2019 +0800 
+ [feature] Add commitlog labeling function 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e22905f 
+ 35ecc05 
+ 6d86022 
+ chuncen 
+ lichuncen@gmail.com 
+ Wed Dec 18 05:10:20 2019 +0800 
+ [fix] Convert msg to lowerCase to match better, though slower 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1dede17 
+ f72995b 
+ e22905f 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 18 11:20:26 2019 +0800 
+ [feature] Add customized node finder to find all AST nodes at or above Statement level. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 273e895 
+ 1958f04 
+ 1dede17 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 18 16:23:34 2019 +0800 
+ [feature] Collect initialized types for field and method declarations. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 219871c 
+ b6a9afa 
+ 273e895 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 18 22:47:13 2019 +0800 
+ [feature] Add more types of edges in the graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 17856c4 
+ a044cad 
+ 219871c 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 19 20:27:24 2019 +0800 
+ [refactor] Extract Location class to represent the location of hunk. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5b43eb1 
+ e20676d 
+ 17856c4 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 19 20:46:58 2019 +0800 
+ [feature] Add functions to compute hunk positions before visiting AST. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6b6887f 
+ 7b450b8 
+ 5b43eb1 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 20 19:50:32 2019 +0800 
+ [chore] Reorganize the way to config inputs. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9dc1048 
+ 51a8cec 
+ 6b6887f 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 20 19:53:41 2019 +0800 
+ [chore] Remove the duplicate jdt.core.jar. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 110a2f5 
+ b12595e 
+ 9dc1048 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 20 19:57:05 2019 +0800 
+ [fix] Format and unify path to avoid separator difference. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f0afa79 
+ 2a4d11b 
+ 110a2f5 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 23 09:58:54 2019 +0800 
+ [fix] Add missing import for Pattern. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2d4af59 
+ 83f9279 
+ f0afa79 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 23 10:01:22 2019 +0800 
+ [feature] Add Hunk entity and node into the graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 193dc54 
+ 1b12a21 
+ 2d4af59 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 23 11:43:46 2019 +0800 
+ [refactor] Refactor parseStatement and parseExpression methods. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ bfe1ce0 
+ 15d634c 
+ 193dc54 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 23 15:26:27 2019 +0800 
+ [feature] Use blue color to highlight hunk node in graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 782250a 
+ 709a80f 
+ bfe1ce0 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 23 16:31:20 2019 +0800 
+ [fix] Change the source vertex of member type declaration from package to parent type. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3466b6a 
+ 0561a91 
+ 782250a 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 23 16:52:53 2019 +0800 
+ [feature] Create and add HunkInfo into the graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a849ec4 
+ 674d6b2 
+ 1dede17 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Dec 25 15:41:18 2019 +0800 
+ [refactor] Lists to List<List<>> 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3401f6f 
+ fc213db 
+ 3466b6a 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 25 16:44:10 2019 +0800 
+ [example] Add example code for actions collecting. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2975e8e 
+ 7164031 
+ 3401f6f 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 25 17:43:03 2019 +0800 
+ [fix] Fix wrong logger class. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ af105fa 
+ 99d02e0 
+ 2975e8e 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 25 17:54:41 2019 +0800 
+ [config] Change the config input and output to adapt mergebot. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 19c6ee7 
+ 425473f 
+ af105fa 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 25 18:06:48 2019 +0800 
+ [refactor] Reorganize the functions of analyzing repo. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f63c05e 
+ 8248956 
+ a849ec4 19c6ee7 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Dec 25 19:41:37 2019 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9368f42 
+ b3eef2f 
+ 19c6ee7 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 25 19:44:00 2019 +0800 
+ [refactor] Switch and rename the writer util methods. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f522ae2 
+ d05dd28 
+ 9368f42 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 25 20:09:54 2019 +0800 
+ [integration] Add funtions to collect and save intermediate data for UI. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d07b8bc 
+ 521c20c 
+ f522ae2 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 26 10:59:55 2019 +0800 
+ [feature] Add simple name resolving for local hunk. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e2cedcc 
+ 7e42f43 
+ d07b8bc 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 26 11:02:05 2019 +0800 
+ [refactor] Extract ITypeBinding local variable. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5857fe2 
+ 57ad44c 
+ e2cedcc 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 26 11:09:00 2019 +0800 
+ [feature] Add resolution for lamba method reference (a::b). 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a12c3e5 
+ 83d5fbc 
+ 5857fe2 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 26 13:19:32 2019 +0800 
+ [io] Append hunk index for entity hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ bb458f5 
+ 017daa4 
+ a12c3e5 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 26 15:12:21 2019 +0800 
+ [refactor] Uniformly use qualified name and colon to match entity and members. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 27a1b49 
+ d65d0b8 
+ bb458f5 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 26 15:46:02 2019 +0800 
+ [feature] Enable collecting diff files of other status. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 37fba36 
+ 48115a4 
+ 27a1b49 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 26 16:46:36 2019 +0800 
+ [refactor] Flatten the Location; Add multiple IDs; Remove UI specific models. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5c150f2 
+ 0c6c414 
+ 37fba36 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 26 17:10:18 2019 +0800 
+ [feature] Enable collection of all types of diff files. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ dd53688 
+ 50c7f0a 
+ 5c150f2 
+ Symbolk 
+ symbolk@163.com 
+ Thu Dec 26 17:49:51 2019 +0800 
+ [integration] Add map from UUID to DiffFile and DiffHunk. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8d34850 
+ d882b59 
+ dd53688 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 27 16:47:40 2019 +0800 
+ [integration] Split testing for specific commit and working tree into two entries. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e634282 
+ b406437 
+ 8d34850 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 27 16:48:45 2019 +0800 
+ [io] Unify read and write of files by wrapping methods from apache.io. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3450dbe 
+ 9056294 
+ e634282 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 27 16:57:42 2019 +0800 
+ [fix] Add BLANKLINE to represent white line changes. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9ab6ed1 
+ af9ab9f 
+ 3450dbe 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 27 17:11:57 2019 +0800 
+ [integration] Put the content field as empty when collecting diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9bc0f68 
+ 6752cc6 
+ 9ab6ed1 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 27 17:28:01 2019 +0800 
+ [chore] Add RM as the new rename label in the late Git versions. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4acd8f3 
+ 18cd6be 
+ 9bc0f68 
+ Symbolk 
+ symbolk@163.com 
+ Sat Dec 28 15:13:37 2019 +0800 
+ [fix] Fix the file status checking from the two-letter status code. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 138ba5d 
+ 5884745 
+ 4acd8f3 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 10:55:29 2019 +0800 
+ [chore] Support GBK in code. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5ddd4b7 
+ 5eb1059 
+ 138ba5d 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 11:06:33 2019 +0800 
+ [fix] Add -uall option to show all untracked files for untracked folders. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 38c2547 
+ d6d3fa8 
+ 5ddd4b7 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 11:54:33 2019 +0800 
+ [chore] Rename the DiffAnalyzer to Neo4jDemo. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ef27b99 
+ 3e55ff7 
+ 38c2547 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 14:35:52 2019 +0800 
+ [fix] Fix empty file path for UNTRACKED files. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fa5c95d 
+ 8f3c813 
+ ef27b99 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 15:48:07 2019 +0800 
+ [refactor] Extract UUID generator to Utils. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a28602c 
+ 957d08e 
+ fa5c95d 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 16:13:26 2019 +0800 
+ [integration] Serialize diff hunks inside a file as a Map instead of a List. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4307292 
+ 1a20688 
+ a28602c 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 17:21:35 2019 +0800 
+ [feature] Add all non-java files in the first group. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6c2c9a9 
+ 11f7cce 
+ 4307292 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 20:11:22 2019 +0800 
+ [fix] Use a better content type checking strategy. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 133ec1a 
+ 74833be 
+ 6c2c9a9 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 20:15:15 2019 +0800 
+ [chore] Automatically clear the temp data dir before analyzing. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4e0f7ff 
+ eef84d7 
+ 133ec1a 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 23:12:48 2019 +0800 
+ [fix] Generate one single DiffHunk for UNTRACKED/ADDED files. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d261a21 
+ 51790e8 
+ 4e0f7ff 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 30 23:27:38 2019 +0800 
+ [fix] Make the diff hunk id as the same with the file id for UN/ADD files. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3e85b25 
+ 511c9b8 
+ d261a21 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 1 23:03:10 2020 +0800 
+ [refactor] Rename diffHunkID in Node into diffHunkIndex to distinct between UUID and readable index. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 910c20b 
+ 6ed7b84 
+ 3e85b25 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 2 11:17:14 2020 +0800 
+ [feature] Use GroupGenerator to group diff hunks by heuristic rules. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0cfc210 
+ 53caadc 
+ 910c20b 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 2 11:18:14 2020 +0800 
+ [test] Use junit5 (jupiter) as the test framework. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1b69902 
+ e00129b 
+ 0cfc210 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 2 11:19:10 2020 +0800 
+ [config] Remove repo name level from when collecting the diff files at commit. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1a4f248 
+ 15e08db 
+ 1b69902 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 2 14:41:40 2020 +0800 
+ [refactor] Extract local variable when processing statement. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 359c879 
+ ffc8608 
+ 1a4f248 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 2 16:02:06 2020 +0800 
+ [fix] Avoid creating orphan nodes in the graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1b4c87f 
+ bc515ad 
+ 359c879 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 2 16:03:03 2020 +0800 
+ [feature] Add analysis for import statements. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8192ad4 
+ 6117c47 
+ f63c05e 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Jan 2 17:11:50 2020 +0800 
+ [refactor] List<List<>> to CommitInfo 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ adef473 
+ f55c424 
+ 8192ad4 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Jan 2 17:15:41 2020 +0800 
+ [refactor] Rename and Remove useless comments // */ 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 198d0af 
+ 5bc8231 
+ adef473 1b4c87f 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Jan 2 17:16:23 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 85f1126 
+ 67f899d 
+ 198d0af 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 09:26:50 2020 +0800 
+ [refactor] Extract parsing from indexString to indices to Utils. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 34cfed7 
+ 1e3cfe4 
+ 85f1126 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 10:19:23 2020 +0800 
+ [feature] Add diff hunks that def types in ImportDeclaration into the graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2cc2815 
+ 34421f9 
+ 34cfed7 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 11:01:51 2020 +0800 
+ [fix] Support this. field access. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ db966ee 
+ 0f6b4ad 
+ 2cc2815 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 11:26:36 2020 +0800 
+ [feature] Support return type edges of MethodDeclaration. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 87e468d 
+ 98df57d 
+ db966ee 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 11:49:05 2020 +0800 
+ [integration] Use simple groupX as the groupID. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 04352ad 
+ 39d39bc 
+ 87e468d 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 12:59:35 2020 +0800 
+ [feature] Group the remaining diffhunks into the last group. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2dd5e06 
+ c4b26c7 
+ 04352ad 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 14:12:00 2020 +0800 
+ [fix] Add invocation to the remaining diff hunk analyzer. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5ec22ff 
+ 29dc923 
+ 2dd5e06 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 14:16:31 2020 +0800 
+ [chore] Add REPO_ID in arguments inside CommitInfoHandler. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d44d412 
+ b83018f 
+ 5ec22ff 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 14:22:33 2020 +0800 
+ [log] Add logger config before analyzing. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ dcb9f46 
+ 3b62952 
+ d44d412 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 16:17:37 2020 +0800 
+ [fix] Fix several bugs in parsing the AST. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9376a1d 
+ f35dfc0 
+ dcb9f46 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 16:58:00 2020 +0800 
+ [feature] Add diff parser code into the project. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a94da14 
+ 69855f5 
+ 9376a1d 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 3 17:38:36 2020 +0800 
+ [build] Add fatJar task in building. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2de10f8 
+ de9802f 
+ 198d0af 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Jan 3 23:47:23 2020 +0800 
+ [feat] Store ActionList in separated mongodb document 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 301e6be 
+ 69855f5 
+ 2de10f8 a94da14 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Jan 3 23:57:51 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+ # Conflicts:
+#	src/main/java/com/github/smartcommit/intent/CommitInfoHandler.java
+ 
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c92d8a5 
+ fd0b59b 
+ a94da14 
+ Symbolk 
+ symbolk@163.com 
+ Sun Jan 5 19:47:53 2020 +0800 
+ [fix] Fix the parsing bug in diffparser. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 75f6d1f 
+ d1d69ae 
+ c92d8a5 
+ Symbolk 
+ symbolk@163.com 
+ Sun Jan 5 19:58:53 2020 +0800 
+ [opt] Use -U0 directly for hunk computing. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 892852a 
+ cf34b4e 
+ 75f6d1f 
+ Symbolk 
+ symbolk@163.com 
+ Sun Jan 5 20:02:13 2020 +0800 
+ [fix] Fix parsing bug when the diff content starts with ---. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0f0ac73 
+ cf34b4e 
+ 892852a 301e6be 
+ Symbolk 
+ symbolk@163.com 
+ Sun Jan 5 20:02:37 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 945d1f0 
+ b8ad1f0 
+ 0f0ac73 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Jan 5 21:28:02 2020 +0800 
+ [docs] Remove temp dir for RepoAnalyzer and change the testNum 799 to 0. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1260465 
+ d058628 
+ 945d1f0 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 11:04:09 2020 +0800 
+ [fix] Fix hunk position bug when the hunk end line is the last line of the file. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 40f5b11 
+ 10db481 
+ 1260465 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 11:25:05 2020 +0800 
+ [fix] Show the changes including the staged changes. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f41ec33 
+ 2694c7e 
+ 40f5b11 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 14:45:37 2020 +0800 
+ [format] Format some code(s). 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 45b9fa7 
+ 7f84905 
+ f41ec33 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 15:20:17 2020 +0800 
+ [feature] Support self field access without this but as SimpleName. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c79c76f 
+ 4e47fa5 
+ 45b9fa7 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 16:14:17 2020 +0800 
+ [opt] Use fully qualified name + parameter string to uniquely identify methods. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a0820d2 
+ 3a5aecd 
+ c79c76f 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 16:15:29 2020 +0800 
+ [feature] Add support for EnumDeclaration. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 83e7e39 
+ be05997 
+ a0820d2 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 16:55:22 2020 +0800 
+ [feature] Match Enum and EnumConstant in diffhunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c3361ad 
+ ef003dd 
+ 83e7e39 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 19:15:33 2020 +0800 
+ [refactor] Rename the EntityInfo into MemberInfo. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3151a76 
+ 103af32 
+ c3361ad 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 19:43:01 2020 +0800 
+ [fix] Fix state transition bug from NEUTRAL_LINE to HEADER. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 45738e7 
+ b8194d3 
+ 3151a76 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 20:03:33 2020 +0800 
+ [feature] Add support for AnnotationTypeDeclaration. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ db242d8 
+ eef72b6 
+ 45738e7 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 6 20:08:24 2020 +0800 
+ [fix] Fix path matching bug when checking endsWith(""). 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 81377cf 
+ c14fd46 
+ db242d8 
+ Symbolk 
+ symbolk@163.com 
+ Tue Jan 7 20:14:12 2020 +0800 
+ [gradle] Config gradle compile output language to Engligh. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0172d22 
+ 34a3c57 
+ 81377cf 
+ Symbolk 
+ symbolk@163.com 
+ Tue Jan 7 22:17:53 2020 +0800 
+ [fix] Create the temp dir first to avoid pure untracked/deleted file changes lead to non-exist base/current folder. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ cdbcb94 
+ 081ec4f 
+ 0172d22 
+ Symbolk 
+ symbolk@163.com 
+ Tue Jan 7 22:19:39 2020 +0800 
+ [fix] Fix getPosition column deviation. 
+ cu.getPosition(line, column)
+//   * @param line the one-based line number
+//	 * @param column the zero-based column number
+//	 * @return the 0-based character position in the source string
+ 
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 32f3e95 
+ f63c605 
+ cdbcb94 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 8 09:42:33 2020 +0800 
+ [chore] Downgrade the supported Java version to 8. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 74043aa 
+ 9b4d44b 
+ cdbcb94 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 8 09:51:30 2020 +0800 
+ [chore] Downgrade the language support to Java8. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c80f9eb 
+ 9b4d44b 
+ 74043aa 32f3e95 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 8 09:52:40 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5753c37 
+ a5d4b26 
+ c80f9eb 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 8 11:51:34 2020 +0800 
+ [feature] Add DiffViewGraph to visualize the links between diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ aaef246 
+ cda2876 
+ 5753c37 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 8 11:56:06 2020 +0800 
+ [config] Add Threshold in Config. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 480595f 
+ 52dc25d 
+ aaef246 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 8 13:15:49 2020 +0800 
+ [config] Add Threshold in the GroupGenerator. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 061b615 
+ c1f834e 
+ 480595f 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 9 11:20:05 2020 +0800 
+ [refactor] Refactor the functions into the form of 2 APIs. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fa29150 
+ 2ee53b8 
+ 061b615 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 9 14:24:38 2020 +0800 
+ [fix] Fix the duplication bug in generating groups. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6483661 
+ a953a6e 
+ fa29150 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 9 15:48:52 2020 +0800 
+ [refactor] Use Map to record the ids of grouped diffhunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6d1da3a 
+ 7499a70 
+ 6483661 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 9 18:04:18 2020 +0800 
+ [fix] Set the diffHunkID the same as fileID for DELETED files. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 55d137d 
+ 0a29edd 
+ 6483661 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 10 15:47:31 2020 +0800 
+ [feature] Add weight for Edge; Use explicit hunk nodes in the graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2d7dcc4 
+ 6e919e9 
+ 55d137d 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 10 15:48:49 2020 +0800 
+ [io] Prettify the exported dot format graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5d8c5e1 
+ 4aea2eb 
+ 6d1da3a 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 10 16:19:52 2020 +0800 
+ [chore] Generate the manual groups at the same time. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ffbe968 
+ 557cebb 
+ 5d8c5e1 
+ Symbolk 
+ symbolk@163.com 
+ Sat Jan 11 16:34:05 2020 +0800 
+ [fix] Add visited in DFS to avoid infinite loops. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 23fdaf1 
+ a1502e7 
+ ffbe968 
+ Symbolk 
+ symbolk@163.com 
+ Sun Jan 12 10:29:49 2020 +0800 
+ [fix] Fix NullPointerException caused by the wrong key in Map getting. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 80a6f9f 
+ 04796af 
+ 23fdaf1 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jan 13 17:42:18 2020 +0800 
+ [chore] Use TreeMap to preserve the order of the grouping results. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2ce269d 
+ 0c07961 
+ 80a6f9f 
+ Symbolk 
+ symbolk@163.com 
+ Tue Jan 14 15:57:09 2020 +0800 
+ [refactor] Generate groups from connected components in the diff hunk graph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4d2c698 
+ 1d347b9 
+ 2ce269d 2d7dcc4 
+ Symbolk 
+ symbolk@163.com 
+ Tue Jan 14 15:59:30 2020 +0800 
+ Merge branch 'dev' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 28a6e86 
+ 5fe947e 
+ 4d2c698 
+ Symbolk 
+ symbolk@163.com 
+ Tue Jan 14 17:06:26 2020 +0800 
+ [feature] Adapt the grouping algorithm with the graph with explicit hunk nodes. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0cf7987 
+ b27c690 
+ 28a6e86 
+ Symbolk 
+ symbolk@163.com 
+ Tue Jan 14 17:37:27 2020 +0800 
+ [fix] Only consider diff hunks with code content for systematic edits. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 39f4e83 
+ 664f555 
+ 0cf7987 
+ Symbolk 
+ symbolk@163.com 
+ Tue Jan 14 21:24:49 2020 +0800 
+ [feature] Support reformat-only diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 76f8d1e 
+ 0fd5d48 
+ 39f4e83 
+ Symbolk 
+ symbolk@163.com 
+ Tue Jan 14 21:43:06 2020 +0800 
+ [feature] Add GroupLabel to describe the grouping heuristic. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ed08d6b 
+ 1ab5982 
+ 76f8d1e 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 15 11:38:51 2020 +0800 
+ [chore] Add encodings and adjust the options settings for the ASTParser. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ed5ed77 
+ 526f5e4 
+ ed08d6b 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 15 11:52:24 2020 +0800 
+ [chore] Remove the unused import statement. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e38666f 
+ 6d7fbc6 
+ ed5ed77 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 15 18:55:49 2020 +0800 
+ [fix] Support static method invocation and field access. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 72406ea 
+ c8f8888 
+ e38666f 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 15 18:56:38 2020 +0800 
+ [fix] Group imported types separately for each file to avoid wrong import grouping. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 423d711 
+ 34f07e2 
+ 72406ea 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jan 15 19:00:35 2020 +0800 
+ [chore] Add getter and setter for fields in Group model. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 63f9b51 
+ 91b421a 
+ 423d711 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 16 10:34:42 2020 +0800 
+ [feature] Support annotation type used in class/field/method declaration. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5b02523 
+ 4d70c5b 
+ 63f9b51 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 16 10:51:24 2020 +0800 
+ [io] Remove commit id from the temp data dir path. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6c3036b 
+ c306725 
+ 5b02523 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 16 11:34:45 2020 +0800 
+ [chore] Add more labels for change intent. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e5258a0 
+ 565de0a 
+ 6c3036b 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 16 11:36:43 2020 +0800 
+ [refactor] Extract the intermediate versions generation into one method. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 7211f4b 
+ cb0aaac 
+ e5258a0 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 16 16:22:44 2020 +0800 
+ [chore] Set simple commit message for groups. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 45bee80 
+ c89fc29 
+ 7211f4b 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jan 16 16:52:00 2020 +0800 
+ [fix] Restore/Unstage the staged/cached files before analyzing the working tree. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4bc9a96 
+ f652283 
+ 45bee80 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 17 14:30:59 2020 +0800 
+ [fix] Use transient instead of @Expose to exclude fields in serialization. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 388a025 
+ dd35992 
+ 4bc9a96 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 17 15:47:24 2020 +0800 
+ [feature] Add description for diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3ecad59 
+ 4d55636 
+ 388a025 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 17 17:14:24 2020 +0800 
+ [feature] Sort diff hunks in groups by ascending order. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3920f50 
+ b4d50bf 
+ 3ecad59 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jan 17 17:14:54 2020 +0800 
+ [chore] Comment build failure printing for Gradle. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c945cfb 
+ 31bb275 
+ 3920f50 
+ Symbolk 
+ symbolk@163.com 
+ Sun Jan 19 16:09:36 2020 +0800 
+ [feature ] Support refactorings detection with RefactoringMiner. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 995882c 
+ de3d478 
+ c945cfb 
+ Symbolk 
+ symbolk@163.com 
+ Sun Jan 19 17:05:13 2020 +0800 
+ [fix] Order the diff hunks in one group by fileIndex and diffHunkIndex separately. 
+ Instead of comparing directly as String, which can be wrong when fileIndex >= 10.
+ 
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3b5c45b 
+ 8b0a3c8 
+ 995882c 
+ Symbolk 
+ symbolk@163.com 
+ Sun Jan 19 18:57:46 2020 +0800 
+ [fix] Consider file path when detecting ref-related diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 22ef37d 
+ 659a7d2 
+ 3b5c45b 
+ feiyun 
+ feiyun@example.com 
+ Thu Jan 23 15:41:54 2020 +0800 
+ Bug fix for storing mongo db 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 091c215 
+ 5684ac8 
+ 22ef37d 
+ feiyun 
+ feiyun@example.com 
+ Thu Jan 23 15:42:52 2020 +0800 
+ Reformat 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fccfd59 
+ d0c2cab 
+ 3b5c45b 
+ chuncen 
+ lichuncen@outlook.com 
+ Sat Feb 1 17:58:33 2020 +0800 
+ [feature] Add the GetCommitMsg for further classification 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5364e10 
+ 5684ac8 
+ 3b5c45b 091c215 
+ feiyun2002gl 
+ feiyun2002gl@163.com 
+ Tue Feb 4 10:56:19 2020 +0800 
+ Merge pull request #2 from Symbolk/feiyun 
+ Feiyun 
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b2b20b7 
+ ce0c98b 
+ fccfd59 5364e10 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Feb 4 22:06:12 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+ # Conflicts:
+#	src/main/java/com/github/smartcommit/intent/CommitInfoHandler.java
+ 
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3a4e3b1 
+ 66a7fe1 
+ 3b5c45b 
+ Symbolk 
+ symbolk@163.com 
+ Thu Feb 6 11:37:26 2020 +0800 
+ [refactor] Extract arguments to Config; Add two thresholds. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8cf4748 
+ 8f21282 
+ 3a4e3b1 5364e10 
+ Symbolk 
+ symbolk@163.com 
+ Thu Feb 6 11:43:05 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 20b7fc0 
+ 5516a8c 
+ b2b20b7 8cf4748 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Feb 6 15:53:40 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4466b8c 
+ 9da658e 
+ 20b7fc0 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Feb 6 16:34:45 2020 +0800 
+ [reformat] merge with remote and remove useless codes 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 68d7c65 
+ 32517ed 
+ 4466b8c 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Feb 6 21:50:48 2020 +0800 
+ [feature] proceed multi repos one by one 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b8d423e 
+ 69f4091 
+ 68d7c65 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 7 00:10:47 2020 +0800 
+ [feature] proceed repos given in specific pathway and cloned from git 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fbda3bd 
+ acfc2a6 
+ b8d423e 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 7 13:34:20 2020 +0800 
+ [feature] use intentList to record verb groups 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b506104 
+ 5515b31 
+ fbda3bd 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 7 13:36:52 2020 +0800 
+ [fix] find the missing commits in gumtree: no codeChange 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a14ab58 
+ 2eb1244 
+ b506104 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 7 15:44:41 2020 +0800 
+ [feature] Add option to select the location distance level to group close diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 09e0f53 
+ aff6ba5 
+ a14ab58 
+ chuncen 
+ lichuncen@outlook.com 
+ Mon Feb 10 16:59:14 2020 +0800 
+ [feature] add IntentDescription and revert to Intent 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d558266 
+ 56d7b08 
+ 09e0f53 
+ chuncen 
+ lichuncen@outlook.com 
+ Mon Feb 10 17:12:24 2020 +0800 
+ [fix] change the intent label to 8 categories 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ef40821 
+ 1bd8b37 
+ a14ab58 
+ Symbolk 
+ symbolk@163.com 
+ Tue Feb 11 12:51:14 2020 +0800 
+ [fix] Fix distance computing and duplicate diff hunks BUG. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 865fee7 
+ 03e0fba 
+ ef40821 d558266 
+ Symbolk 
+ symbolk@163.com 
+ Tue Feb 11 12:51:32 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 76dd8ba 
+ 9e485c3 
+ 865fee7 
+ Symbolk 
+ symbolk@163.com 
+ Tue Feb 11 13:30:57 2020 +0800 
+ [fix] Add missing UNKNOWN. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 33bb42e 
+ f4b0edc 
+ d558266 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Feb 12 09:30:22 2020 +0800 
+ [feature] use randomForest to classify commitMsg 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f098bf0 
+ 4fd29a2 
+ 33bb42e 76dd8ba 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Feb 12 09:31:00 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8a0f858 
+ 474a287 
+ f098bf0 
+ Symbolk 
+ symbolk@163.com 
+ Thu Feb 13 16:43:27 2020 +0800 
+ [lib] Update RMiner to be compatible with mg. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fc9c295 
+ 62d2f28 
+ 8a0f858 
+ Symbolk 
+ symbolk@163.com 
+ Thu Feb 13 17:53:23 2020 +0800 
+ [feature] Add Description class for DiffHunk. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 04d1baf 
+ fe7a2ca 
+ fc9c295 
+ Symbolk 
+ symbolk@163.com 
+ Thu Feb 13 20:04:40 2020 +0800 
+ [fix] Add descriptions for more types. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e230cea 
+ 4d66e60 
+ f098bf0 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 14 02:08:31 2020 +0800 
+ [refactor] gather gumtree into a method 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 58d54a5 
+ 7771513 
+ e230cea 04d1baf 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 14 02:08:45 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a73dd0d 
+ a1025d0 
+ 58d54a5 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 14 10:31:52 2020 +0800 
+ [feature] add RefactorCodeChange( HOPE NO ERROR 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3bcd5d4 
+ 0a4cb5c 
+ a73dd0d 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 14 11:00:19 2020 +0800 
+ [optimize] change the List of IntentDescription and move exceptionLabel to intent 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 98ea9d1 
+ 4497f20 
+ 04d1baf 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 14 23:34:26 2020 +0800 
+ [feature] Save raw diff lines to generate patch. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 755f4c6 
+ 13a5f14 
+ 98ea9d1 3bcd5d4 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 14 23:34:40 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fe1acd4 
+ cafd8cd 
+ 755f4c6 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 15 19:19:21 2020 +0800 
+ [feature] Change diff arg -U0 to -U1 to prepare for patch generation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 83b65e6 
+ bdf8e25 
+ fe1acd4 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 15 20:10:39 2020 +0800 
+ [refactor] Rename the method to generate group details. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c42237c 
+ 1ac06a5 
+ 83b65e6 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 15 20:24:40 2020 +0800 
+ [feature] Save raw headers into DiffFile, and diff lines into DiffHunk. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 035d28e 
+ a3df939 
+ c42237c 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Feb 16 01:40:47 2020 +0800 
+ [fix] load refactoring into DB 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4654c02 
+ e5f2875 
+ 035d28e 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Feb 16 01:56:15 2020 +0800 
+ [refactor] gather refactorminer into one method 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ cf13478 
+ 9bd1ded 
+ 4654c02 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Feb 16 02:07:13 2020 +0800 
+ [fix] change from Intent to IntentDescription 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c998b20 
+ a7649dc 
+ cf13478 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Feb 16 02:18:53 2020 +0800 
+ [fix] split the log more accurately by ignoring the "merge" line 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fb1efed 
+ fb6287e 
+ c998b20 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Feb 16 11:03:42 2020 +0800 
+ [optimize] separate RefactorCodeChange operation and type manually 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 91c975d 
+ f2773ee 
+ fb1efed 
+ Symbolk 
+ symbolk@163.com 
+ Mon Feb 17 19:13:05 2020 +0800 
+ [fix] Save raw headers and diff lines on save, to generate patches dynamically. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2b93861 
+ ed6613b 
+ 91c975d 
+ Symbolk 
+ symbolk@163.com 
+ Mon Feb 17 19:22:58 2020 +0800 
+ [refactor] Extract generateGroupDetails from SmartCommit. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 249f149 
+ c3d7413 
+ 2b93861 
+ Symbolk 
+ symbolk@163.com 
+ Mon Feb 17 20:34:07 2020 +0800 
+ [refactor] Rename and add methods in Utils. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6d96305 
+ 59b86c4 
+ 249f149 
+ Symbolk 
+ symbolk@163.com 
+ Mon Feb 17 20:34:22 2020 +0800 
+ [feature] Add functions to generate patches from manual group files. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d106794 
+ 3756a67 
+ 6d96305 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Feb 20 09:45:50 2020 +0800 
+ [feature] MutiThread handler to speed up 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 7e1b1fe 
+ a3c8975 
+ d106794 
+ Symbolk 
+ symbolk@163.com 
+ Thu Feb 20 21:37:06 2020 +0800 
+ [chore] Remove the unnecessary arg tempDir. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0ade9fe 
+ efaf262 
+ 7e1b1fe 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 21 16:39:44 2020 +0800 
+ [feature] Add selectedGroups arg for patch generation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3a36f01 
+ 6300495 
+ 0ade9fe 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 21 16:40:44 2020 +0800 
+ [refactor] Split Description to a list of actions and a string. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b82dd52 
+ 1240758 
+ 3a36f01 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 21 16:41:53 2020 +0800 
+ [api] Add CommitMsgGenerator and generateCommitMsg API in SmartCommit client. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8027aef 
+ 2fe156c 
+ b82dd52 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 21 17:33:37 2020 +0800 
+ [feature] List example types in Operation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 04e94e7 
+ c1bfd4a 
+ 8027aef 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 21 18:05:46 2020 +0800 
+ [refactor] Replace all descriptions to actions when collecting diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 680a3a0 
+ e5c6547 
+ 04e94e7 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 21 22:54:33 2020 +0800 
+ [feature] Add framework for committing workflow. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9eb9cb8 
+ 0271eda 
+ 680a3a0 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 22 15:05:26 2020 +0800 
+ [feature] Update toString method of Action. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ bd62d5c 
+ 340977f 
+ 9eb9cb8 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 22 17:54:19 2020 +0800 
+ [chore] Temporarily disable the testing of unstable APIs. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8fa4078 
+ 662df3e 
+ bd62d5c 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 22 20:34:56 2020 +0800 
+ [feature] Save refactoring actions in diff hunks (as the Refactoring class). 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8243e69 
+ 988e6dc 
+ 8fa4078 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 22 22:01:43 2020 +0800 
+ [feature] Get astActions and refActions in generateCommitMsg(). 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ aa97fc4 
+ f9af5bc 
+ 8243e69 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 22 22:05:04 2020 +0800 
+ [chore] Remove space after colon in description. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6388bf8 
+ 6d9b439 
+ aa97fc4 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 22 22:16:35 2020 +0800 
+ [refactor] Rename diffHunks in Group into diffHunkIDs. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e469454 
+ 68b849a 
+ 6388bf8 
+ Symbolk 
+ symbolk@163.com 
+ Sat Feb 22 22:39:15 2020 +0800 
+ [fix] Generate and save diff hunk description in diffs/*.json. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 97059cc 
+ ebd4037 
+ e469454 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Feb 23 10:08:06 2020 +0800 
+ [feature] Unify refactoringType with action by convertRefactoringToAction() in Utils.java and more operation type in Operation.java 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2b96260 
+ 68f788c 
+ 97059cc 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Feb 23 10:56:20 2020 +0800 
+ [feature] add mutliThread in DiffFile Level ; refactor: rename TrainningSample tp TrainingSample 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 67c3b4a 
+ c383608 
+ 2b96260 
+ chuncen 
+ lichuncen@outlook.com 
+ Mon Feb 24 16:40:02 2020 +0800 
+ [refactor] rename intent/model/action to astAction 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0513a52 
+ 73d10d5 
+ 67c3b4a 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Feb 25 16:18:19 2020 +0800 
+ [fix] convert many codeChanges to one action 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3a8c4a9 
+ f2d9b94 
+ 0513a52 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Feb 25 16:37:06 2020 +0800 
+ [fix] convert many codeChanges to one action 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 55bcfc2 
+ b92ff92 
+ 3a8c4a9 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Feb 25 16:38:13 2020 +0800 
+ [refractor] remove useless files: Examples/Toy of Gumtree\Mongodb\RefactoringMiner and README 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 01a77db 
+ b4015d6 
+ 2b96260 
+ Symbolk 
+ symbolk@163.com 
+ Tue Feb 25 23:16:37 2020 +0800 
+ [chore] Make analyzeASTActions() public. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 55fa727 
+ 1751973 
+ 55bcfc2 01a77db 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Feb 26 10:03:17 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fdcc6e2 
+ d6f0705 
+ 01a77db 
+ Symbolk 
+ symbolk@163.com 
+ Wed Feb 26 11:03:03 2020 +0800 
+ [API] Update the API definition for integration. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2fa32c9 
+ 838d03f 
+ fdcc6e2 
+ Symbolk 
+ symbolk@163.com 
+ Wed Feb 26 16:20:44 2020 +0800 
+ [refactor] Move and rename methods for exporting the results to disk. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a195601 
+ 5682393 
+ 2fa32c9 
+ Symbolk 
+ symbolk@163.com 
+ Wed Feb 26 16:21:08 2020 +0800 
+ [chore] Add getter and setter for commit id. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 682eef0 
+ fb56fa2 
+ a195601 
+ Symbolk 
+ symbolk@163.com 
+ Wed Feb 26 17:35:17 2020 +0800 
+ [literal] Change Attribute to Field in Operation description. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 839dc61 
+ f72956c 
+ 682eef0 
+ Symbolk 
+ symbolk@163.com 
+ Wed Feb 26 17:36:02 2020 +0800 
+ [refactor] Convert Refactoring to Action. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 81eb758 
+ 8922cc0 
+ 839dc61 
+ Symbolk 
+ symbolk@163.com 
+ Wed Feb 26 17:41:18 2020 +0800 
+ [fix] Override equals for Action to avoid duplication. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 517fb00 
+ 836e98a 
+ 55fa727 81eb758 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Feb 26 17:48:15 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+ # Conflicts:
+#	src/main/java/com/github/smartcommit/util/Utils.java
+ 
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 575cbf6 
+ e2268c2 
+ 81eb758 
+ Symbolk 
+ symbolk@163.com 
+ Thu Feb 27 12:17:18 2020 +0800 
+ [refactor] Rename dataPaths to srcDirs. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6273640 
+ 82a77e7 
+ 517fb00 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 28 11:29:02 2020 +0800 
+ [feature] add DiffHunk result to DB 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1204c6c 
+ 826afb9 
+ 575cbf6 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 28 12:36:10 2020 +0800 
+ [feature] Add commit id in tempdir for analyzeCommit(). 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 20e2975 
+ ed7dbd3 
+ 1204c6c 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 28 12:41:52 2020 +0800 
+ [refactor] Allow setting targetDir in exportResults(). 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5f7ccb4 
+ 75b5023 
+ 20e2975 
+ Symbolk 
+ symbolk@163.com 
+ Fri Feb 28 13:00:03 2020 +0800 
+ [eva] Add evaluation framework. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ cfb8604 
+ 9bfdf1d 
+ 6273640 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 28 13:37:54 2020 +0800 
+ [feature] 3in1 AllAction to DB 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 99ede9c 
+ f7797b1 
+ cfb8604 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 28 13:41:02 2020 +0800 
+ [refactor] Rename RefactorCodeChange to RefactorMinerAction 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1cac587 
+ cbd7000 
+ 99ede9c 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 28 14:28:14 2020 +0800 
+ [refactor] Simplify the Tips and add Exception counts to DB 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f272cc5 
+ a9cf8da 
+ 1cac587 5f7ccb4 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Feb 28 14:42:51 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 63f1cff 
+ c219433 
+ f272cc5 
+ chuncen 
+ lichuncen@outlook.com 
+ Sat Feb 29 09:22:15 2020 +0800 
+ [feature] implement the vectorize function 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ca97ebc 
+ 3d4b470 
+ 63f1cff 
+ chuncen 
+ lichuncen@outlook.com 
+ Sat Feb 29 09:50:36 2020 +0800 
+ [fix] fix the vectorize bug: lack of refactorActions 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 443eaf7 
+ 3b587f7 
+ ca97ebc 
+ chuncen 
+ lichuncen@outlook.com 
+ Sat Feb 29 09:57:10 2020 +0800 
+ [doc] add enum MsgClass as concluded by haisheng 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ bf04322 
+ ccca3ac 
+ 443eaf7 
+ chuncen 
+ lichuncen@outlook.com 
+ Sat Feb 29 13:01:29 2020 +0800 
+ [feature] add MsgTemplate and test 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 086d82f 
+ 2f0ac88 
+ bf04322 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Mar 1 11:40:38 2020 +0800 
+ [feature] a  very simple version for recommendedCommitMsg generation 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 438c051 
+ b579c14 
+ 086d82f 
+ chuncen 
+ lichuncen@outlook.com 
+ Sun Mar 1 11:42:48 2020 +0800 
+ [doc] update the match list of intent 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 12c92d9 
+ 43cfba6 
+ 438c051 
+ chuncen 
+ lichuncen@outlook.com 
+ Mon Mar 2 13:02:11 2020 +0800 
+ [doc] update the template list in MsgTemplate.json 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5d4727e 
+ ca7e2df 
+ 5f7ccb4 
+ Symbolk 
+ symbolk@163.com 
+ Mon Mar 2 14:21:16 2020 +0800 
+ [eva] Add mongodb framework to save data for evaluation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2add917 
+ 5447ffc 
+ 5d4727e 438c051 
+ Symbolk 
+ symbolk@163.com 
+ Mon Mar 2 14:21:44 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 50abf26 
+ c017b90 
+ 12c92d9 
+ chuncen 
+ lichuncen@outlook.com 
+ Mon Mar 2 14:34:39 2020 +0800 
+ [optimize] Fix two bug cause by intentList update and take new method to generate recommendedCommitMsg: count the typeFrom, choose the most recommended template, fill in the first blank and return list(recommend + leftover). 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b1f4d3c 
+ 2d667ac 
+ 50abf26 2add917 
+ chuncen 
+ lichuncen@outlook.com 
+ Mon Mar 2 14:35:28 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fb2524f 
+ 88e31b1 
+ b1f4d3c 
+ Symbolk 
+ symbolk@163.com 
+ Mon Mar 2 14:50:55 2020 +0800 
+ [eva] Get committer name and email to save in mongodb. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3ae4b89 
+ 4420df4 
+ b1f4d3c 
+ chuncen 
+ lichuncen@outlook.com 
+ Mon Mar 2 21:05:55 2020 +0800 
+ [optimize] add some special cases for recommendedCommitMsgs generation 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8e4ae26 
+ 8419623 
+ 3ae4b89 fb2524f 
+ chuncen 
+ lichuncen@outlook.com 
+ Mon Mar 2 21:06:39 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 899aca6 
+ 251c2ef 
+ 8e4ae26 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Mar 3 18:23:48 2020 +0800 
+ [fix] Spilt RefAction to Operation+Type 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ dd464c8 
+ 080c19b 
+ 899aca6 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Mar 3 18:27:07 2020 +0800 
+ [chore] remove CommitInfoHandlerParallel.java (useless at present 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ bc1857c 
+ b3975f4 
+ dd464c8 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Mar 3 18:36:42 2020 +0800 
+ [fix] change List of IntentDescription and revert List of Intent, thus count Gumtree Exception 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f663c56 
+ 6972cd6 
+ bc1857c 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Mar 3 19:15:39 2020 +0800 
+ [fix] list intentDescriptions in order 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 96c83dd 
+ 5ca2967 
+ f663c56 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Mar 3 19:44:18 2020 +0800 
+ [fix] fix bug: Re(Move) count twice, in C-style 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 18935ef 
+ 1e86ebd 
+ 96c83dd 
+ chuncen 
+ lichuncen@outlook.com 
+ Tue Mar 3 19:49:21 2020 +0800 
+ [optimize] spilt DiffHunkAction into operation+type 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ daf5ade 
+ 317423f 
+ 18935ef 
+ Symbolk 
+ symbolk@163.com 
+ Tue Mar 3 21:53:36 2020 +0800 
+ [eva] Remove single quotes from author name and email. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 753ed62 
+ d6a744e 
+ daf5ade 
+ Symbolk 
+ symbolk@163.com 
+ Tue Mar 3 21:54:23 2020 +0800 
+ [eva] Insert smartcommit grouping results into mongodb for visualization. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8746d09 
+ 3eedb07 
+ 753ed62 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Mar 4 16:17:00 2020 +0800 
+ [fix] use the correct API when generating astAction to DB 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4f466fb 
+ 934a5c8 
+ 8746d09 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Mar 4 17:09:56 2020 +0800 
+ [eva] redesign the vector, though still use typeFrom only 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 50294e7 
+ 1f3dbfa 
+ 4f466fb 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Mar 4 17:38:19 2020 +0800 
+ [fix] fix the Thread Exception while Graph building: one thread 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2a69b45 
+ 880f48d 
+ 50294e7 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Mar 4 19:59:50 2020 +0800 
+ [fix] rollback and remove Exception tips in Graph building 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e310099 
+ eec2c70 
+ 2a69b45 
+ chuncen 
+ lichuncen@outlook.com 
+ Wed Mar 4 20:49:33 2020 +0800 
+ [fix] no more count Unknown case 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 499ab9d 
+ 3497996 
+ 753ed62 
+ Symbolk 
+ symbolk@163.com 
+ Wed Mar 4 23:04:24 2020 +0800 
+ [eva] Save all results in one collection for node.js querying. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 375b4bd 
+ 802a83a 
+ 499ab9d e310099 
+ Symbolk 
+ symbolk@163.com 
+ Wed Mar 4 23:04:59 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 62317f7 
+ dbd9620 
+ e310099 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Mar 5 17:11:48 2020 +0800 
+ [fix] string index out of range in generateIntentDescriptionFromMsg 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 31ca314 
+ 9b996c0 
+ 62317f7 375b4bd 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Mar 5 17:12:26 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 86113eb 
+ c8de709 
+ 31ca314 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Mar 5 19:58:59 2020 +0800 
+ [optimize] change MsgTemplate.json and recommendedCommitMsgs format 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 646a8e9 
+ 6cdddf0 
+ 86113eb 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Mar 5 20:31:39 2020 +0800 
+ [optimize] change recommendedCommitMsgs content 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 75ddbde 
+ ea0022c 
+ 646a8e9 
+ chuncen 
+ lichuncen@outlook.com 
+ Thu Mar 5 21:24:49 2020 +0800 
+ [optimize] make short circuit in specific cases and fix bug in action"1".getLabelTo().isEmpty() 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1cd8ab4 
+ ab6f391 
+ 75ddbde 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Mar 6 12:10:19 2020 +0800 
+ [fix] get the index instead of count in action frequency count cycle 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a22d15a 
+ c4043f3 
+ 75ddbde 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 6 12:16:39 2020 +0800 
+ [fix] Fix path error when converting git diff file path. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ed001c0 
+ 019d27f 
+ 1cd8ab4 a22d15a 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Mar 6 12:18:55 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3577683 
+ eb23c8a 
+ ed001c0 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Mar 6 13:48:29 2020 +0800 
+ [optimize] change top3 to top2 in CommitMsgGenerator and add ShortCircuit 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 192dc91 
+ 6a85280 
+ 3577683 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Mar 6 13:53:51 2020 +0800 
+ [optimize] change special case "Add", from-to -> Add(To)in(From) 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 937ba6e 
+ 784f046 
+ 192dc91 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 6 17:49:34 2020 +0800 
+ [fix] Fix line range deviation when there is”\ No newline at end of file". 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 71a4057 
+ 19bc74c 
+ 937ba6e 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Mar 6 18:56:11 2020 +0800 
+ [fix] refIndex = getOperation - astOperationSum 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ eef06d2 
+ 83f9755 
+ 937ba6e 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 6 20:19:35 2020 +0800 
+ [log] Save logs under the tempDir instead of the project folder. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 944597b 
+ 4f09787 
+ eef06d2 71a4057 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 6 20:20:03 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ be76099 
+ 25973ec 
+ 944597b 
+ chuncen 
+ lichuncen@outlook.com 
+ Fri Mar 6 21:12:19 2020 +0800 
+ [fix] default "Code", not "code" 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a47bc11 
+ eef0e37 
+ be76099 
+ Symbolk 
+ symbolk@163.com 
+ Sun Mar 8 21:44:38 2020 +0800 
+ [fix] Set the tempDir/logs as the log dir. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 24dda9b 
+ 8d54516 
+ a47bc11 
+ Symbolk 
+ symbolk@163.com 
+ Sun Mar 8 22:55:59 2020 +0800 
+ [lib] Update RefactoringMiner jar and API. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b4a48fe 
+ b455df9 
+ 24dda9b 
+ lichuncen 
+ lichuncen@163.com 
+ Wed Mar 11 01:58:59 2020 +0800 
+ [optimize] map some Refactor Operations to MsgClass "Refactor" 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3a07385 
+ 65b5ef1 
+ b4a48fe 
+ lichuncen 
+ lichuncen@163.com 
+ Wed Mar 11 02:08:42 2020 +0800 
+ [feature] Add TimeLimit(10min) for each graph building 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5c77d34 
+ 9f98d0d 
+ 3a07385 
+ lichuncen 
+ lichuncen@163.com 
+ Wed Mar 11 12:05:40 2020 +0800 
+ [fix] fix the TypeSum bug in IndexFinal and change MsgTemplate to UpperCase 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a8801a8 
+ 4cfbcf9 
+ 5c77d34 
+ lichuncen 
+ lichuncen@163.com 
+ Wed Mar 11 13:21:29 2020 +0800 
+ [feature] add generateSeparatedGroupVector() to prepare different vector for refAction and astAction 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d517a10 
+ c6c3afe 
+ a8801a8 
+ lichuncen 
+ lichuncen@163.com 
+ Wed Mar 11 15:34:22 2020 +0800 
+ [fix] handle content lack in from/to type/label and take strict match for MsgClass-Operation 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6a05871 
+ 75d4c15 
+ 3a07385 
+ Symbolk 
+ symbolk@163.com 
+ Wed Mar 11 19:31:41 2020 +0800 
+ [fix] Downgrade support language level of RefactoringMiner. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9f152fc 
+ fda4165 
+ 6a05871 d517a10 
+ Symbolk 
+ symbolk@163.com 
+ Wed Mar 11 19:31:50 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 51bdeb9 
+ 6a1a14c 
+ 9f152fc 
+ lichuncen 
+ lichuncen@163.com 
+ Wed Mar 11 20:10:25 2020 +0800 
+ [refactor] move json read to an individual method 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ec79569 
+ a70cbe8 
+ 51bdeb9 
+ lichuncen 
+ lichuncen@163.com 
+ Wed Mar 11 22:16:22 2020 +0800 
+ [update] new recommendedCommitMsg format 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3414e60 
+ 9110d88 
+ ec79569 
+ lichuncen 
+ lichuncen@163.com 
+ Wed Mar 11 22:51:18 2020 +0800 
+ [reformat] google-java-format 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ de5dca4 
+ b105753 
+ 3414e60 
+ lichuncen 
+ lichuncen@163.com 
+ Wed Mar 11 23:20:35 2020 +0800 
+ [optimize] add try-catch for GroupVector generation 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1752b46 
+ dc896d1 
+ de5dca4 
+ Symbolk 
+ symbolk@163.com 
+ Thu Mar 12 08:34:20 2020 +0800 
+ [log] Use log4j directly to replace slf4j. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ dda9021 
+ c298eeb 
+ 1752b46 
+ lichuncen 
+ lichuncen@163.com 
+ Thu Mar 12 10:09:34 2020 +0800 
+ [optimize] change slf4j to log4j in CommitMsgGenerator 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a3ea8ea 
+ 6d51e39 
+ dda9021 
+ lichuncen 
+ lichuncen@163.com 
+ Thu Mar 12 12:02:22 2020 +0800 
+ [fix] add label existence judgement and "no matched action" tips 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2673ebe 
+ 4ae4655 
+ a3ea8ea 
+ lichuncen 
+ lichuncen@163.com 
+ Thu Mar 12 12:12:32 2020 +0800 
+ [fix] put Action("Code") as the last choice 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ eec5366 
+ ea4ff5d 
+ 2673ebe 
+ lichuncen 
+ lichuncen@163.com 
+ Thu Mar 12 12:17:44 2020 +0800 
+ [fix] template "action0 + action1" 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0cb683a 
+ fa13150 
+ 1752b46 
+ Symbolk 
+ symbolk@163.com 
+ Thu Mar 12 14:40:06 2020 +0800 
+ [fix] Use -U0 in git-diff to not merging neighboring diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2f05aac 
+ c13076a 
+ 0cb683a eec5366 
+ Symbolk 
+ symbolk@163.com 
+ Thu Mar 12 14:40:45 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 090898a 
+ c08da40 
+ 2f05aac 
+ lichuncen 
+ lichuncen@163.com 
+ Thu Mar 12 21:29:08 2020 +0800 
+ [fix] fix two bugs: "null" Msg and action0/1 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 054c475 
+ 8932dab 
+ 090898a 
+ lichuncen 
+ lichuncen@163.com 
+ Thu Mar 12 22:00:20 2020 +0800 
+ [fix] fix bound judgement in getIntentDescription() 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0320082 
+ 11502dd 
+ 054c475 
+ lichuncen 
+ lichuncen@163.com 
+ Thu Mar 12 22:22:36 2020 +0800 
+ [fix] handle cases: "NON-JAVA : Add ..." and "No matched action" 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 549f180 
+ c31b1f4 
+ 0320082 
+ lichuncen 
+ lichuncen@163.com 
+ Thu Mar 12 22:26:01 2020 +0800 
+ [test] add test for CommitMsgGenerator and reformat 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c32de39 
+ 8bc9429 
+ 2f05aac 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 13 11:09:00 2020 +0800 
+ [feature] Add distance measure. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fc27818 
+ 0c2139c 
+ c32de39 549f180 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 13 11:09:24 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6033c3c 
+ c392fa2 
+ fc27818 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 13 12:36:18 2020 +0800 
+ [fix] Use git-reset instead of git-restore to be compatible with older git versions. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8c58f05 
+ bfb0ea1 
+ 549f180 
+ lichuncen 
+ lichuncen@163.com 
+ Fri Mar 13 19:40:36 2020 +0800 
+ [fix]  fix intentDescription and add test sample 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4307714 
+ b8ecc1e 
+ 8c58f05 
+ lichuncen 
+ lichuncen@163.com 
+ Fri Mar 13 21:14:34 2020 +0800 
+ [fix] reformat the commitMsg as principles we made and add test code 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f616a43 
+ 0560b8f 
+ 4307714 6033c3c 
+ lichuncen 
+ lichuncen@163.com 
+ Fri Mar 13 21:15:17 2020 +0800 
+ Merge remote-tracking branch 'origin/master' 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f13b01a 
+ 2386351 
+ f616a43 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 13 21:45:17 2020 +0800 
+ [log] Add error log when failing to add the edge. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 77d37d8 
+ 5ed09b9 
+ 6033c3c 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 13 21:45:17 2020 +0800 
+ [log] Add error log when failing to add the edge. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e5661db 
+ 564d0fa 
+ f13b01a 
+ Symbolk 
+ symbolk@163.com 
+ Sat Mar 14 15:02:58 2020 +0800 
+ [eva] Move the evaluation to the dev branch. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 687499d 
+ 0111ced 
+ e5661db 
+ Symbolk 
+ symbolk@163.com 
+ Sat Mar 14 21:44:45 2020 +0800 
+ [opt] Remove unnecessary dependencies. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 41c73ad 
+ a46fa21 
+ 77d37d8 
+ Symbolk 
+ symbolk@163.com 
+ Sat Mar 14 21:44:45 2020 +0800 
+ [opt] Remove unnecessary dependencies. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5ae412b 
+ df73fe0 
+ 41c73ad 
+ Symbolk 
+ symbolk@163.com 
+ Sat Mar 14 23:54:44 2020 +0800 
+ [eva] Move evaluation into separated package; Mine git repo for data. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5452408 
+ 172cc86 
+ 5ae412b 
+ Symbolk 
+ symbolk@163.com 
+ Sun Mar 15 12:01:09 2020 +0800 
+ [data] Save mined data into csv files. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ bff21e3 
+ 03eab2a 
+ 5452408 
+ Symbolk 
+ symbolk@163.com 
+ Sun Mar 15 15:27:24 2020 +0800 
+ [data] Save samples in mongodb. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ be7f9c1 
+ 3804608 
+ bff21e3 
+ Symbolk 
+ symbolk@163.com 
+ Sun Mar 15 20:11:11 2020 +0800 
+ [fix] Fix NPE in field access binding. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 531272e 
+ 87e0d82 
+ be7f9c1 
+ Symbolk 
+ symbolk@163.com 
+ Sun Mar 15 20:11:11 2020 +0800 
+ [eva] Adapt the new file names. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a73b66b 
+ b2eb775 
+ 687499d 
+ Symbolk 
+ symbolk@163.com 
+ Sun Mar 15 20:11:11 2020 +0800 
+ [fix] Fix NPE in field access binding. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 15eebbf 
+ b397da5 
+ 531272e 
+ Symbolk 
+ symbolk@163.com 
+ Sun Mar 15 22:19:19 2020 +0800 
+ [eva] Read and write samples both from mongodb. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8236b5b 
+ cb0f3ad 
+ 15eebbf a73b66b 
+ Symbolk 
+ symbolk@163.com 
+ Tue Mar 17 22:11:36 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore into dev 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 7ef18c1 
+ edc42f5 
+ a73b66b 
+ lichuncen 
+ lichuncen@163.com 
+ Tue Mar 17 22:33:04 2020 +0800 
+ [opt] change CommitMsgGenerate Policy 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ cee6be9 
+ 223f918 
+ 8236b5b 7ef18c1 
+ Symbolk 
+ symbolk@163.com 
+ Wed Mar 18 10:48:43 2020 +0800 
+ Merge branch 'master' of https://github.com/Symbolk/SmartCommitCore into dev 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ bdb35fb 
+ 57e71d5 
+ cee6be9 
+ Symbolk 
+ symbolk@163.com 
+ Wed Mar 18 16:54:08 2020 +0800 
+ [eva] Read samples from mongodb and save write in server's db. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3f8622c 
+ dccc8a7 
+ bdb35fb 
+ Symbol 
+ symbolk@163.com 
+ Sat Mar 21 16:22:41 2020 +0800 
+ [enum] Specify type enums. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ dc16476 
+ d7da183 
+ 3f8622c 
+ Symbol 
+ symbolk@163.com 
+ Sat Mar 21 16:23:32 2020 +0800 
+ [io] Display label and weight for edges in diffGraph. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6f8625a 
+ e4e79e5 
+ dc16476 
+ Symbol 
+ symbolk@163.com 
+ Sat Mar 21 16:26:35 2020 +0800 
+ [feature] Add new GroupGenerator. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ce64933 
+ 022e5a0 
+ 6f8625a 
+ Symbol 
+ symbolk@163.com 
+ Sat Mar 21 20:15:50 2020 +0800 
+ [enum] Reorganize group label and edge type. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b775fd1 
+ 040a0c6 
+ ce64933 
+ Symbol 
+ symbolk@163.com 
+ Sat Mar 21 20:17:23 2020 +0800 
+ [feature] Determine label intent from the most frequent edge type. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 00a3038 
+ 2a20cb1 
+ b775fd1 
+ Symbol 
+ symbolk@163.com 
+ Sun Mar 22 09:32:12 2020 +0800 
+ [fix] Assign default value if ref actions contain null value. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 257af8f 
+ 3944f5f 
+ 00a3038 
+ Symbol 
+ symbolk@163.com 
+ Sun Mar 22 14:34:52 2020 +0800 
+ [fix] Use correct data path for commit analysis. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 660cab0 
+ 4e1ec80 
+ 257af8f 
+ Symbolk 
+ symbolk@163.com 
+ Wed Mar 25 16:04:01 2020 +0800 
+ [fix] Replace restore with reset. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0f8c7ff 
+ 6bc64ab 
+ 660cab0 
+ Symbolk 
+ symbolk@163.com 
+ Wed Mar 25 16:05:49 2020 +0800 
+ [fix] Replace contains with equals to avoid partial-same paths. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4237da9 
+ 38ff75e 
+ 0f8c7ff 
+ Symbol 
+ symbolk@163.com 
+ Wed Mar 25 16:09:29 2020 +0800 
+ [fix] Set attrs before putting into map. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ea4c8ce 
+ a060a6f 
+ 4237da9 
+ Symbolk 
+ symbolk@163.com 
+ Thu Mar 26 22:09:45 2020 +0800 
+ [fix] Fix path matching case when path="/dev/null". 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4569061 
+ 6dce6eb 
+ ea4c8ce 
+ Symbolk 
+ symbolk@163.com 
+ Fri Mar 27 22:43:44 2020 +0800 
+ [fix] Filter Name but allow Comment/Expression when finding covered nodes. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ed7cafd 
+ eedca96 
+ 4569061 
+ Symbolk 
+ symbolk@163.com 
+ Wed Apr 1 23:47:06 2020 +0800 
+ [eva] Improve the classifier for composite commits. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 60f1a6b 
+ 2612a16 
+ ed7cafd 
+ Symbolk 
+ symbolk@163.com 
+ Thu Apr 2 10:59:32 2020 +0800 
+ [refactor] Collect diff hunks also for analyzeCommit. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 490bfa6 
+ e623dd8 
+ 60f1a6b 
+ Symbolk 
+ symbolk@163.com 
+ Thu Apr 2 11:00:28 2020 +0800 
+ [fix] Refine the toString format for Action. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ df66254 
+ c1d2ba5 
+ 490bfa6 
+ Symbolk 
+ symbolk@163.com 
+ Thu Apr 2 11:01:25 2020 +0800 
+ [fix] Fix several bugs in the new GroupGenerator. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ebc5fe4 
+ 6845476 
+ df66254 
+ Symbolk 
+ symbolk@163.com 
+ Mon Apr 6 17:19:12 2020 +0800 
+ [fix] Refine the toString format for Action. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8327367 
+ 9f6b85a 
+ ebc5fe4 
+ Symbolk 
+ symbolk@163.com 
+ Tue Apr 14 09:55:51 2020 +0800 
+ [fix] Fix NPE when binding is null for field. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0c74570 
+ fc2238d 
+ 8327367 
+ Symbolk 
+ symbolk@163.com 
+ Fri Apr 17 15:05:09 2020 +0800 
+ [feature] Support initializer blocks in parsing. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 7d1d9fa 
+ 9263430 
+ 0c74570 
+ Symbolk 
+ symbolk@163.com 
+ Fri Apr 17 19:39:50 2020 +0800 
+ [feature] Consider initializer block in covered nodes. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 477d92f 
+ efaef58 
+ 7d1d9fa 
+ Symbolk 
+ symbolk@163.com 
+ Fri Apr 17 19:59:15 2020 +0800 
+ [fix] Remove column when the parent name empty in qualified name. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9685ebe 
+ 020623e 
+ 477d92f 
+ Symbolk 
+ symbolk@163.com 
+ Fri Apr 17 22:18:49 2020 +0800 
+ [lib] Update RMiner and log4j. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 475bd33 
+ 75c5c03 
+ 9685ebe 
+ Symbolk 
+ symbolk@163.com 
+ Fri Apr 17 22:49:16 2020 +0800 
+ [feature] Compute actions similarity between diff hunks. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 244f6a8 
+ ca591b2 
+ 475bd33 
+ Symbolk 
+ symbolk@163.com 
+ Fri Apr 17 22:51:03 2020 +0800 
+ [fix] Set timeout (300s) for refactoring detection. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3194e1f 
+ 6dea38c 
+ 244f6a8 
+ Symbolk 
+ symbolk@163.com 
+ Fri Apr 17 22:58:29 2020 +0800 
+ [lib] Update log4j to 2.13.1. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 336905b 
+ cccc868 
+ 3194e1f 
+ Symbolk 
+ symbolk@163.com 
+ Sat Apr 18 09:55:22 2020 +0800 
+ [fix] Return empty map instead of null if no changes. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1d0a25d 
+ 3482498 
+ 336905b 
+ Symbolk 
+ symbolk@163.com 
+ Wed Apr 22 11:18:10 2020 +0800 
+ [fix] Early return when there is no diff in working tree or at commit. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9cf7742 
+ 7b9f41e 
+ 1d0a25d 
+ Symbolk 
+ symbolk@163.com 
+ Thu Apr 23 14:21:33 2020 +0800 
+ [fix] Assign correct type for interface/class in TypeDeclaration. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d0867c4 
+ 20f2741 
+ 9cf7742 
+ Symbolk 
+ symbolk@163.com 
+ Thu Apr 23 19:03:05 2020 +0800 
+ [feature] Support AnonymousClassDeclaration. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4c8755a 
+ 938ee0b 
+ d0867c4 
+ Symbolk 
+ symbolk@163.com 
+ Sat Apr 25 14:31:33 2020 +0800 
+ [fix] Check null before calling get methods. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e00e370 
+ c49e7bc 
+ 4c8755a 
+ Symbolk 
+ symbolk@163.com 
+ Sat Apr 25 14:32:49 2020 +0800 
+ [fix] Handle CXXX/RXXX in git diff/status output. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 686ba63 
+ bf705a6 
+ e00e370 
+ Symbolk 
+ symbolk@163.com 
+ Sun Apr 26 20:59:38 2020 +0800 
+ [fix] Cover cases when a compilation unit is not inside a package. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3082570 
+ f71d497 
+ 686ba63 
+ Symbolk 
+ symbolk@163.com 
+ Mon Apr 27 17:19:10 2020 +0800 
+ [fix] Suppress unexpected member types besides AnnotationTypeMember. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 82fb6c3 
+ 15d536c 
+ 3082570 
+ Symbolk 
+ symbolk@163.com 
+ Tue Apr 28 22:16:13 2020 +0800 
+ [feature] Add processNonJava option to decide whether to split non-java changes further. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c3f0cce 
+ 9f65392 
+ 82fb6c3 
+ Symbolk 
+ symbolk@163.com 
+ Tue Apr 28 23:49:21 2020 +0800 
+ [opt] Use primitive types in options&arguments. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4460dfd 
+ 9bf411c 
+ c3f0cce 
+ Symbolk 
+ symbolk@163.com 
+ Wed Apr 29 09:26:02 2020 +0800 
+ [refactor] Refactor the project structure. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 203093e 
+ 60c6990 
+ 4460dfd 
+ Symbolk 
+ symbolk@163.com 
+ Wed Apr 29 16:27:46 2020 +0800 
+ [refactor] Extract generateGroups; Set maxDistance; Modify grouplabel. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c94f39a 
+ 9675d22 
+ 203093e 
+ Symbolk 
+ symbolk@163.com 
+ Wed Apr 29 21:25:04 2020 +0800 
+ [fix] Assign higher priority to Refactor label. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0cef54d 
+ f6341f6 
+ c94f39a 
+ Symbolk 
+ symbolk@163.com 
+ Mon May 4 07:20:04 2020 +0800 
+ [fix] Fix missing info of Expression in covered nodes. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 28a18ce 
+ 5f4afa0 
+ 0cef54d 
+ Symbolk 
+ symbolk@163.com 
+ Mon May 4 07:22:46 2020 +0800 
+ [opt] Use wild type to suppress warning after casting stream. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ab9f17c 
+ 210527b 
+ 28a18ce 
+ Symbolk 
+ symbolk@163.com 
+ Wed May 6 12:18:47 2020 +0800 
+ [refactor] Add result dir for exportGroupDetails method. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b2938b2 
+ b492a9c 
+ ab9f17c 
+ Symbolk 
+ symbolk@163.com 
+ Sat May 9 08:57:53 2020 +0800 
+ [fix] Fix bug when the diff output is empty because of untracked files. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 66176c4 
+ 52872fc 
+ b2938b2 
+ Symbolk 
+ symbolk@163.com 
+ Sat May 9 11:57:58 2020 +0800 
+ [eva] Update evaluation related code. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e0601e0 
+ 156c1b8 
+ 66176c4 
+ Symbolk 
+ symbolk@163.com 
+ Wed May 13 11:21:27 2020 +0800 
+ [refactor] Extract common properties into super class DeclarationInfo. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b4574db 
+ b93e79d 
+ e0601e0 
+ Symbolk 
+ symbolk@163.com 
+ Mon May 18 11:28:07 2020 +0800 
+ [fix] Fix minor exceptions when casting types. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4663bc7 
+ e3ba506 
+ b4574db 
+ Symbolk 
+ symbolk@163.com 
+ Mon May 18 16:56:58 2020 +0800 
+ [chore] Add two util functions. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 125d71e 
+ f40001c 
+ 4663bc7 
+ Symbolk 
+ symbolk@163.com 
+ Mon May 18 17:08:30 2020 +0800 
+ [eva] Add map from diff hunk index to group id for generating details. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ce60623 
+ fd6949a 
+ 125d71e 
+ Symbolk 
+ symbolk@163.com 
+ Mon May 18 17:10:25 2020 +0800 
+ [eva] Tag evaluation code. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b261acb 
+ 690595e 
+ ce60623 
+ Symbolk 
+ symbolk@163.com 
+ Sat May 23 16:33:16 2020 +0800 
+ [feature] Add CLI client to run with jar. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ce2c172 
+ b6209b7 
+ b261acb 
+ Symbolk 
+ symbolk@163.com 
+ Mon May 25 11:32:11 2020 +0800 
+ [log] Use basic configurator when packaging. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 721a689 
+ cd1d338 
+ ce2c172 
+ Symbolk 
+ symbolk@163.com 
+ Mon May 25 14:48:04 2020 +0800 
+ [chore] Update some descriptions for group label. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3bc6249 
+ d0b9848 
+ 721a689 
+ Symbolk 
+ symbolk@163.com 
+ Wed May 27 17:46:57 2020 +0800 
+ [opt] Apply some suggestions by IDEA. 
+ # Conflicts:
+#	src/main/java/com/github/smartcommit/util/GitServiceCGit.java
+ 
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 20b8020 
+ aacf763 
+ 3bc6249 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jun 1 13:01:57 2020 +0800 
+ [feature] Support SYNCHRONIZED_STATEMENT. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d10eb57 
+ 5f5c251 
+ 20b8020 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jun 1 17:25:03 2020 +0800 
+ [opt] Return 1 as similarity when both empty actions. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e30c68a 
+ 50144b0 
+ d10eb57 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jun 1 17:26:31 2020 +0800 
+ [msg] Generate simple commit msg instead of group intent label. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 2eedbbb 
+ dc1e7a4 
+ e30c68a 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jun 3 22:52:31 2020 +0800 
+ [chore] Print commit message in toString of Group. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5b95973 
+ 5460673 
+ 2eedbbb 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jun 5 23:35:03 2020 +0800 
+ [eva] Refine import for evaluation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 910455e 
+ da83828 
+ 5b95973 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jun 5 23:35:36 2020 +0800 
+ [chore] Add test and clear unused import. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 127fdf1 
+ 7f23ec0 
+ 910455e 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jun 4 14:36:12 2020 +0800 
+ [opt] Extent reformatting to code style changes. 
+ # Conflicts:
+#	src/main/java/com/github/smartcommit/core/GroupGenerator.java
+ 
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5abc04b 
+ fb6bfee 
+ 127fdf1 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jun 5 23:23:45 2020 +0800 
+ [feature] Add more types of file and content. 
+ # Conflicts:
+#	src/main/java/com/github/smartcommit/model/constant/FileType.java
+ 
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 685216f 
+ bb87c66 
+ 5abc04b 
+ Symbolk 
+ symbolk@163.com 
+ Sat Jun 6 00:14:35 2020 +0800 
+ [msg] Clear package related to commit message generation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b9881a7 
+ 2c3f6b3 
+ 685216f 
+ Symbolk 
+ symbolk@163.com 
+ Sat Jun 6 00:17:08 2020 +0800 
+ [feature] Introduce charset and binary detection for DiffFile. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5982ca8 
+ 7839abc 
+ b9881a7 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jun 11 10:50:51 2020 +0800 
+ [lib] Update RefactoringMiner to latest upstream. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d1e0e0d 
+ a1d8e90 
+ 5982ca8 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jun 12 17:20:01 2020 +0800 
+ [feature] Add support for other types and nested annotations. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d7bac91 
+ b272a38 
+ d1e0e0d 
+ Symbolk 
+ symbolk@163.com 
+ Sun Jun 14 20:15:44 2020 +0800 
+ [fix] Use ordered map to store generated groups. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c679f0f 
+ 758b6f8 
+ d7bac91 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jun 19 19:16:55 2020 +0800 
+ [opt] Refine action description both from AST and Ref. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ f626363 
+ 83273b9 
+ c679f0f 
+ Symbolk 
+ symbolk@163.com 
+ Sat Jun 20 13:51:39 2020 +0800 
+ [sync] Update Operation types to keep updated with RMiner. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ea4d7df 
+ ba070d0 
+ f626363 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jun 24 14:49:10 2020 +0800 
+ [fix] Fix NPE when the refactored code element is null. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5702948 
+ 308389a 
+ ea4d7df 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jul 6 15:33:08 2020 +0800 
+ [feature] Add support for other types of declarations in AnnotationTypeDeclaration. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ d3b50ae 
+ 8b157bd 
+ 5702948 
+ Symbolk 
+ symbolk@163.com 
+ Mon Jul 6 23:10:22 2020 +0800 
+ [chore] Add more types of file. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b04b298 
+ fd8c844 
+ d3b50ae 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jul 8 15:02:45 2020 +0800 
+ [eva] Prepare for refactoring evaluation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 60bb33e 
+ 6af5e02 
+ b04b298 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jul 9 22:20:48 2020 +0800 
+ [lib] Update the similarity lib. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 457a615 
+ 89dc4ee 
+ 60bb33e 
+ Symbol 
+ symbolk@163.com 
+ Thu Jul 9 23:02:21 2020 +0800 
+ [feature] Detect cross-version related changes with token-based similarity.. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 4670642 
+ c18a8b4 
+ 457a615 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jul 9 23:05:02 2020 +0800 
+ [refactor] Group individuals according to file type. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 670b95a 
+ 7edf057 
+ 4670642 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jul 10 23:27:44 2020 +0800 
+ [chore] Distinguish between cosine and token similarity. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8cf6eee 
+ abdc0ca 
+ 670b95a 
+ Symbol 
+ symbolk@163.com 
+ Fri Jul 10 23:29:56 2020 +0800 
+ [feature] Link test file with changes in the tested class. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a76a350 
+ 8d22fa2 
+ 8cf6eee 
+ Symbolk 
+ symbolk@163.com 
+ Sun Aug 2 11:49:00 2020 +0800 
+ [20200802] Update RMiner to the latest 2.0 version. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fced40b 
+ 46ad311 
+ a76a350 
+ Symbolk 
+ symbolk@163.com 
+ Mon Aug 31 21:02:23 2020 +0800 
+ [refactor] Rename options setters. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 6f2e314 
+ e2c967c 
+ fced40b 
+ Symbolk 
+ symbolk@163.com 
+ Mon Aug 31 21:03:41 2020 +0800 
+ [fix] Do not ignore white lines by removing -w. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 7e3d2f0 
+ 8d2ccae 
+ 6f2e314 
+ Symbolk 
+ symbolk@163.com 
+ Mon Aug 31 21:05:16 2020 +0800 
+ [refactor] Add baseline methods: decompose by solely def-use. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ b12c548 
+ 73a7ddc 
+ 7e3d2f0 
+ Symbolk 
+ symbolk@163.com 
+ Mon Aug 31 21:07:14 2020 +0800 
+ [eva] Rename rq methods and add one baseline. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e0190ee 
+ e9074eb 
+ b12c548 
+ Symbolk 
+ symbolk@163.com 
+ Fri Sep 4 18:36:29 2020 +0800 
+ [doc] Update API and descriptions. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fab39e1 
+ fed2713 
+ e0190ee 
+ Symbolk 
+ symbolk@163.com 
+ Wed Sep 30 17:42:34 2020 +0800 
+ [chore] Add kind tag for diff edge types to filter for ablation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9e75400 
+ 9b63e39 
+ fab39e1 
+ Symbolk 
+ symbolk@163.com 
+ Tue Oct 13 23:05:02 2020 +0800 
+ [feature] Add link category for ablation study and also explainablity. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ a0b97c1 
+ 3e52e44 
+ 9e75400 
+ Symbolk 
+ symbolk@163.com 
+ Tue Oct 13 23:07:26 2020 +0800 
+ [refactor] Save base&current graphs as fields to avoid duplicate building in compared methods. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c28befa 
+ 619d391 
+ a0b97c1 
+ Symbolk 
+ symbolk@163.com 
+ Tue Oct 13 23:08:38 2020 +0800 
+ [feature] Add analyzeWithAblation to mask specific category/categories of links for ablation study. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 94aaa21 
+ 2c480dd 
+ c28befa 
+ Symbolk 
+ symbolk@163.com 
+ Tue Oct 13 23:10:05 2020 +0800 
+ [eva] Add more baselines and ablation study for more solid evaluation (now 4 baseline methods and 4 ablation variants). 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 7c9689a 
+ 9484b95 
+ 94aaa21 
+ Symbolk 
+ symbolk@163.com 
+ Fri Dec 25 15:26:36 2020 +0800 
+ [chore] Update gradle and dependency versions. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5bb071c 
+ a96c8cf 
+ 7c9689a 
+ Symbolk 
+ symbolk@163.com 
+ Wed Jun 2 15:22:19 2021 +0800 
+ [refactor] extract common constants (url, path) to uniform and anonymize. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ dfe03ed 
+ fd1c312 
+ 5bb071c 
+ Symbolk 
+ symbolk@163.com 
+ Fri Jun 4 16:15:27 2021 +0800 
+ [eva] add a quick start example to validate installation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 65479a0 
+ d1cf128 
+ dfe03ed 
+ Symbolk 
+ symbolk@163.com 
+ Sat Jun 5 01:05:12 2021 +0800 
+ [refactor] reorganize code for artifact evaluation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 95858be 
+ 723979d 
+ 65479a0 
+ Symbolk 
+ symbolk@163.com 
+ Sat Jun 5 01:05:44 2021 +0800 
+ [doc] add docs for artifact evaluation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 712755a 
+ 380c443 
+ 95858be 
+ Symbolk 
+ symbolk@163.com 
+ Sat Jun 5 11:01:31 2021 +0800 
+ [doc] add images to the repo. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c92fc01 
+ b1baba5 
+ 712755a 
+ Symbolk 
+ symbolk@163.com 
+ Sat Jun 5 11:03:48 2021 +0800 
+ [doc] correct links to images. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 1dfa1a8 
+ d8a9a67 
+ c92fc01 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jul 15 09:53:54 2021 +0800 
+ [doc] add link to requirements in installation. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 5306983 
+ 7ff4144 
+ 1dfa1a8 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jul 15 15:57:15 2021 +0800 
+ [doc] add commands to checkout to evaluated branch and commit id of repositories. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ e34d632 
+ 7cbbe4f 
+ 5306983 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jul 15 16:11:45 2021 +0800 
+ [misc] resolve some program entry warnings as pointed. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 7bb36af 
+ 75d661c 
+ e34d632 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jul 15 16:26:24 2021 +0800 
+ [doc] add the step to set proper Gradle version in IDEA. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 12ef2bb 
+ 9fda507 
+ 7bb36af 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jul 15 16:29:09 2021 +0800 
+ [doc] add changes to the top-level README. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ fc8071c 
+ 00966b8 
+ 12ef2bb 
+ Symbolk 
+ symbolk@163.com 
+ Thu Jul 29 23:33:35 2021 +0800 
+ doc: fix typos in readme 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ bc49ff2 
+ 7c2459b 
+ fc8071c 
+ Symbolk 
+ symbolk@163.com 
+ Mon Aug 9 22:20:05 2021 +0800 
+ [feat] allow line encoding changes (LF/CRLF) to be committed. 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9d21108 
+ 8c9104b 
+ bc49ff2 
+ Symbolk 
+ symbolk@163.com 
+ Sun Aug 15 11:57:19 2021 +0800 
+ build: add script and cmd to build jar from code 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8a0e35b 
+ 5d0c7ab 
+ 9d21108 
+ Symbolk 
+ symbolk@163.com 
+ Fri Nov 12 16:02:52 2021 +0800 
+ chor: simplify code as suggested by IDEA 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8664321 
+ 92a6237 
+ 8a0e35b 
+ Symbolk 
+ symbolk@163.com 
+ Mon Nov 15 10:23:40 2021 +0800 
+ chor: simplify code as suggested by IDEA 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ c9a442b 
+ 1fcfca3 
+ 8664321 
+ Symbolk 
+ symbolk@163.com 
+ Mon Nov 15 15:05:37 2021 +0800 
+ feat: implement the max-gap dynamic threshold splitter 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ ba61f81 
+ ab8c5ae 
+ c9a442b 
+ Symbolk 
+ symbolk@163.com 
+ Mon Nov 15 15:15:18 2021 +0800 
+ chor: change default weight threshold to 0D 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 26cf1e7 
+ aa69c25 
+ ba61f81 
+ Symbolk 
+ symbolk@163.com 
+ Mon Nov 15 15:16:23 2021 +0800 
+ fix: missed from the last commit 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 3a20902 
+ f89e764 
+ 26cf1e7 
+ Symbolk 
+ symbolk@163.com 
+ Mon Nov 15 15:54:10 2021 +0800 
+ doc: update readme 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8938f8c 
+ 8dfc952 
+ 3a20902 
+ Symbolk 
+ symbolk@163.com 
+ Mon Nov 15 20:31:46 2021 +0800 
+ feat: rough implementation of ARI (draft) 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ af97dfc 
+ 7af23c8 
+ 8938f8c 
+ Symbolk 
+ symbolk@163.com 
+ Wed Nov 17 17:36:33 2021 +0800 
+ fix: resolve the label alignment issue by same sorting by cluster size 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 7ef2bf4 
+ 6ddef41 
+ af97dfc 
+ Symbolk 
+ symbolk@163.com 
+ Mon Nov 29 17:51:00 2021 +0800 
+ doc: update Java version to run 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 39e2ce7 
+ d3df316 
+ af97dfc 
+ Symbolk 
+ symbolk@163.com 
+ Sat Dec 11 14:27:55 2021 +0800 
+ fix: update log4j to fix vulnerability (close #20) 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 0179a4b 
+ ef1d3ef 
+ 39e2ce7 7ef2bf4 
+ Symbolk 
+ symbolk@163.com 
+ Sat Dec 11 14:28:32 2021 +0800 
+ Merge branch 'main' of https://github.com/Symbolk/SmartCommitCore 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 9a9f57d 
+ 0dc8539 
+ 0179a4b 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 15 15:56:42 2021 +0800 
+ fix: update log4j to fix vulnerability (close #21) 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 8a463c2 
+ a3a4401 
+ 9a9f57d 
+ Symbolk 
+ symbolk@163.com 
+ Wed Dec 15 16:02:30 2021 +0800 
+ fix: update mongo driver to fix vulnerability (close #19) 
+  
+ **dasjf93hd9f()&&^
+***adfa*asdfo**
+ 44b4f58 
+ 92cdc17 
+ 8a463c2 
+ Symbolk 
+ symbolk@163.com 
+ Mon Dec 20 23:15:33 2021 +0800 
+ fix: update log4j to fix vulnerability (close #22) 
+  
+ **dasjf93hd9f()&&^
