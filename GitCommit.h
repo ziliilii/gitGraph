@@ -38,13 +38,18 @@ public:
     vector<GitCommit*> parents;      // 父提交
 
     vector<GitCommit*> children;     // 儿子
+    vector<string> modified_file;
 
     static unordered_map<string, GitCommit*> commit_list;
     
     static unordered_map<string, FileHead*> file_list;   // 文件名 + blob_ish 作为 key
     static unordered_map<string, vector<FileHead*>> same_name_file;   // 文件名 作为 key
+    
 
     void diff_parents(string&);
+    void link_prev_node(string, string);
+    void link_prev_node(string, string, string);
+    void link_prev_node(string, string, string, string, string);
 
     void print_file_list();
 

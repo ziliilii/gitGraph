@@ -50,7 +50,35 @@ void GitCommit::add_child(string child) {
 }
 
 
+void GitCommit::link_prev_node(string prev_blob, string file) {
+    auto t = new FileNode(this->commit_ish);
+    t->link(file_nodes[file + ' ' + prev_blob]);
+}
+
+void GitCommit::link_prev_node(string prev_blob, string cur_blob, string file) {
+    FileNode* t;
+    string s = file + ' ' + cur_blob;
+    if(file_nodes.count(s)) t = file_nodes[s];
+    else t = new FileNode(cur_blob, this->commit_ish, file);
+
+    t->link(file_nodes[file + ' ' + prev_blob]);
+
+}
+
+void GitCommit::link_prev_node(string prev_blob, string cur_blob, string prev_file, string cur_file, string type) {
+    FileNode* t;
+    string s = cur_file + ' ' + cur_blob;
+    if(file_nodes.count(s)) t = file_nodes[s];
+    else t = new FileNode(cur_blob, this->commit_ish, cur_file, type);
+
+    t->link(file_nodes[prev_file + ' ' + prev_blob]);
+}
+
 void GitCommit::diff_parents(string& git_dir) {
+    
+
+
+
     vector<string> res;
     string cmd;
     if (this->parents.size() == 1) {
@@ -80,15 +108,31 @@ void GitCommit::diff_parents(string& git_dir) {
                     while(temp --) {
                         in >> out;
                     }
-                    if (out[0] == 'A') continue;
+                    if (out[0] == 'A') {
+                       // cout << "多父亲存在新增" << endl;
+                        continue;
+                    }
                     if (out[0] == 'D') {
-                        cout << "多父亲存在删除\n";
+
+                        // cout << "多父亲存在删除：" << endl;
+                        // cout << "当前节点：" << this->commit_ish << endl;
+                        // for(auto& x: this->parents) {
+                        //     cout << "父亲：" << x->commit_ish << endl;
+                        // }
+                        // cout << read_str << endl;
+                        res.push_back(read_str);
                     }
                     if (out[0] == 'C') {
-                        cout << "多父亲存在复制\n";
+                        // cout << "多父亲存在复制\n";
                     }
                     if (out[0] == 'R') {
-                        cout << "多父亲存在重命名\n";
+                        // cout << "多父亲存在重命名\n";
+                        // cout << "当前节点：" << this->commit_ish << endl;
+                        // for(auto& x: this->parents) {
+                        //     cout << "父亲：" << x->commit_ish << endl;
+                        // }
+                        // cout << read_str << endl;
+                        res.push_back(read_str);
                     }
                     if (out[0] == 'M') {
                         res.push_back(read_str);
@@ -99,8 +143,11 @@ void GitCommit::diff_parents(string& git_dir) {
         }
     }
 
-    string prev_blob, cur_blob, type, file, file2;
+    string prev_blob, cur_blob, type, file, cur_file;
     for (auto& s: res) {
+
+
+
         istringstream in(s);
         string out;
         in >> out;
@@ -114,24 +161,35 @@ void GitCommit::diff_parents(string& git_dir) {
         in >> out;
         file = out;
         FileHead* t;
+
         switch(type[0]) {
             case 'A':
                 
                 t = new FileHead(file, cur_blob, this->commit_ish);
+                this->modified_file.push_back(file + ' ' + cur_blob);
                 GitCommit::file_list[file + ' ' + cur_blob] = t;
                 GitCommit::same_name_file[file].push_back(t);
                 break;
             case 'D':
-                
+                this->link_prev_node(prev_blob, file);
+                this->modified_file.push_back(file + ' ' + cur_blob);
                 break;
             case 'C':
-                
+                in >> out;
+                cur_file = out;
+                this->modified_file.push_back(file + ' ' + cur_blob);
+                this->link_prev_node(prev_blob, cur_blob, file, cur_file, type);
                 break;
             case 'R':
-                
+                in >> out;
+                cur_file = out;
+                this->modified_file.push_back(file + ' ' + cur_blob);
+                this->link_prev_node(prev_blob, cur_blob, file, cur_file, type);
                 break;
             case 'M':
-                
+
+                this->modified_file.push_back(file + ' ' + cur_blob);
+                this->link_prev_node(prev_blob, cur_blob, file);
                 break;
             default:
                 

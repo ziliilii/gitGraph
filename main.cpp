@@ -5,6 +5,7 @@
 #include <sstream>
 #include <fstream>
 #include <string>
+#include <iostream>
 #include <queue>
 #include <string.h>
 
@@ -23,6 +24,9 @@ const string end_flag = "**dasjf93hd9f()&&^";
 GitCommit* first_commit;
 int ish_len;
 string git_dir;  // git仓库的文件路径
+
+
+
 
 
 
@@ -68,6 +72,56 @@ int main(int ac, char** av) {
 
     cout << "读取修改的文件..." << endl;
     get_file_stat();
+    cout << "完成" << endl;
+    while(1) {
+        int c;
+        string s, a, b;
+        int idx;
+        cout << "输入一个数" << endl;
+        scanf("%d", &c);
+        switch(c) {
+            case 1:
+                cout << "文件版本图共有" << GitCommit::file_list.size() << endl;
+                break;
+            case 2:
+                cout << "请输入commit hash" << endl;
+                cin >> s;
+                if(!GitCommit::commit_list.count(s)) {
+                    cout << "commit hash 输入有误" << endl;
+                    break;
+                }
+                cout << "此 commit 修改的文件为:\n";
+                for (auto& m: GitCommit::commit_list[s]->modified_file) {
+                    cout << m << endl;
+                }
+                break;
+            case 3:
+                cout << "输入文件名\n";
+                cin >> a;
+                cout << "输入文件blob\n";
+                cin >> b;
+                s = a + ' ' + b;
+                if(!file_nodes.count(s)) {
+                    cout << "文件名输入有误\n";
+                    break;
+                }
+                while(1) {
+                    cout << "此文件版本有 " << file_nodes[s]->prev_nodes.size() << " 个前置版本\n";
+                    for(auto& x: file_nodes[s]->prev_nodes) {
+                        cout << "blob hash: " << x->blob_ish << ' ' << "commit hash: " << x->commit_ish << endl;
+                    }
+                    cout << "此文件版本有 " << file_nodes[s]->next_nodes.size() << " 个后置版本\n";
+                    for(auto& x: file_nodes[s]->next_nodes) {
+                        cout << "blob hash: " << x->blob_ish << ' ' << "commit hash: " << x->commit_ish << endl;
+                    }
+                    cin >> b;
+                    s = a + ' ' + b;
+
+                }
+            
+            
+        }
+    }
 
     return 0;
 
@@ -209,12 +263,14 @@ void get_file_stat() {
     while(q.size()) {
         auto cur = q.front();
 
+
         q.pop();
         cur->diff_parents(git_dir);
 
 
 
        for(auto& child: cur->children){
+
 
             if(child->pcnt == 1){
                 q.push(child);
@@ -224,10 +280,8 @@ void get_file_stat() {
                 child->pcnt = child->pcnt - 1;
             }
         }
-
-
     }
-    first_commit->print_file_list();
+    // first_commit->print_file_list();
 }
 
 void file_list_init() {  // 初始化文件列表，从仓库的第一个commit开始

@@ -14,6 +14,7 @@ public:
     int size;
     vector<string> used_name;
     FileNode* head;
+    
 
     FileHead(string, string, string);
     static void init(string, string, FileHead*);
@@ -24,13 +25,22 @@ class FileNode {
 public:
     string commit_ish;
     string blob_ish;
+    string type;
+    string file_name;
 
     vector<FileNode*> prev_nodes;
     vector<FileNode*> next_nodes;
     FileHead* file_head;
 
-    FileNode(string, string);
+    FileNode(string);
+    FileNode(string, string, string);
+    FileNode(string, string, string, string);
+
+    void link(FileNode*);
 };
+
+extern unordered_map<string, FileNode*> file_nodes;  // 文件名 + blob_ish 作为 key
+// extern unordered_map<string, FileNode*> deleted_files; // 被删除的文件
 
 
 
