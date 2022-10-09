@@ -16,24 +16,28 @@ FileHead::FileHead(string file_name, string blob_ish, string commit_ish) {
 }
 
 
-FileNode::FileNode(string commit_ish) {
+FileNode::FileNode(string commit_ish, string file_name) {  // 新增"删除"节点
     this->commit_ish = commit_ish;
+    this->blob_ish = "000000";
+    this->file_name = file_name;
     this->prev_nodes.clear();
     this->next_nodes.clear();
     this->type = "d";
 }
 
-FileNode::FileNode(string blob_ish, string commit_ish, string file_name) {
+FileNode::FileNode(string blob_ish, string commit_ish, string file_name) {  // 新增修改节点
     this->commit_ish = commit_ish;
     this->blob_ish = blob_ish;
+    this->file_name = file_name;
     this->prev_nodes.clear();
     this->next_nodes.clear();
     file_nodes[file_name + ' ' + blob_ish] = this;
 }
 
-FileNode::FileNode(string blob_ish, string commit_ish, string file_name, string type) {
+FileNode::FileNode(string blob_ish, string commit_ish, string file_name, string type) {  // 新增复制 重命名的节点
     this->commit_ish = commit_ish;
     this->blob_ish = blob_ish;
+    this->file_name = file_name;
     this->type = type;
     this->prev_nodes.clear();
     this->next_nodes.clear();

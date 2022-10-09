@@ -17,6 +17,13 @@ void read_commits();
 void get_file_stat();
 void file_list_init();
 void read_tree(string& commit_ish, string& tree_ish, string path);
+void gen_csv();
+void bfs(FileHead* head);
+void w_head(FileHead* head, int idx);
+void w_node(FileNode* node);
+void w_h2n(FileHead* head, FileNode* node, int head_idx);
+void w_n2n(FileNode* cur, FileNode* ne);
+
 
 const string start_flag = "***adfa*asdfo**";
 const string end_flag = "**dasjf93hd9f()&&^";
@@ -60,6 +67,8 @@ int main(int ac, char** av) {
                     break;
             }
         }
+
+        
         
     } else {
         cout << "参数错误" << endl;
@@ -86,6 +95,7 @@ int main(int ac, char** av) {
             case 2:
                 cout << "请输入commit hash" << endl;
                 cin >> s;
+                s = s.substr(0, ish_len);
                 if(!GitCommit::commit_list.count(s)) {
                     cout << "commit hash 输入有误" << endl;
                     break;
@@ -118,6 +128,11 @@ int main(int ac, char** av) {
                     s = a + ' ' + b;
 
                 }
+
+            case 4:
+                cout << "生成csv文件\n";
+                gen_csv();
+                cout << "生成完毕\n";
             
             
         }
@@ -333,10 +348,101 @@ void read_tree(string& commit_ish, string& tree_ish, string path) {  // 深度�
 
 
 
+void gen_csv() {
+
+    ofstream o1("data/csv/heads_header.csv");
+    o1.clear();
+    o1 << "headId:ID(Head-ID),:LABEL\n";
+    o1.close();
+    ofstream o2("data/csv/head_relation_header.csv");
+    o2 << ":START_ID(Head-ID),:END_ID(Node-ID),:TYPE\n";
+    o2.close();
+    ofstream o3("data/csv/nodes_header.csv");
+    o3 << "nodeId:ID(Node-ID),name,blobHash,commitHash,:LABEL\n";
+    o3.close();
+    ofstream o4("data/csv/node_relation_header.csv");
+    o4 << ":START_ID(Node-ID),:END_ID(Node-ID),:TYPE\n";
+    o4.close();
 
 
+    // char s1[30] = "headId:ID(Head-ID),:LABEL";
+    // system(strcat(s1, " > data/csv/heads_header.csv"));
+    // char s2[50] = ":START_ID(Head-ID),:END_ID(Node-ID),:TYPE";
+    // system(strcat(s2, " > data/csv/head_relation_header.csv"));
+    // char s3[100] = "nodeId:ID(Node-ID),name,blobHash,commitHash,:LABEL";
+    // system(strcat(s3, " > data/csv/nodes_header.csv"));
+    // char s4[100] = ":START_ID(Node-ID),:END_ID(Node-ID),:TYPE";
+    // system(strcat(s4, " > data/csv/node_relation_header.csv"));
+    for (auto& fh: GitCommit::file_list) {
+        bfs(fh.second);
+    }
+}
 
+unordered_map<FileNode*, int> st;
 
+void bfs(FileHead* head) {
+    static int idx = 0;
+    idx ++;
+    auto t = head->head;
+    w_head(head, idx);
+    if (!st.count(t)) w_node(t);
+    else {
+        cout << "bfs\n";
+        exit(2);
+    }
+    w_h2n(head, head->head, idx);
+    queue<FileNode*> q;
+    q.push(t);
+    while(q.size()) {
+        auto cur_node = q.front();
+        q.pop();
+        for (auto& next_node: cur_node->next_nodes) {
+            if(!st.count(next_node)) {
+                q.push(next_node);
+                w_node(next_node);
+            } 
+            w_n2n(cur_node, next_node);
+        }
+    }
+}
+
+void w_head(FileHead* head, int idx) {  //写入heads.csv
+    string line = to_string(idx) + ",head\n";
+    ofstream out;
+    out.open("data/csv/heads.csv", ios::app);
+    out << line;
+    out.close();
+}
+
+void w_node(FileNode* node) {  // 写入nodes.csv
+    static int idx = 0;
+    idx ++;
+    string line = to_string(idx) + ',' + node->file_name + ',' + node->blob_ish + ',' + node->commit_ish + ",node\n";
+    ofstream out; 
+    out.open("data/csv/nodes.csv", ios::app);
+    out << line;
+    out.close();
+    st[node] = idx;
+}
+
+void w_h2n(FileHead* head, FileNode* node, int head_idx) {  // 写入head_relation.csv
+    int node_idx = st[node];
+    string line = to_string(head_idx) + ',' + to_string(node_idx) + ",head\n";
+    ofstream out;
+    out.open("data/csv/head_relation.csv", ios::app);
+    out << line;
+    out.close();
+}
+
+void w_n2n(FileNode* cur, FileNode* ne) {  // 写入node_relation.csv
+    int cur_idx = st[cur];
+    int ne_idx = st[ne];
+    string line = to_string(cur_idx) + ',' + to_string(ne_idx) + ",is parent\n";
+    ofstream out;
+    out.open("data/csv/node_relation.csv", ios::app);
+    out << line;
+    out.close();
+}
 
 
 

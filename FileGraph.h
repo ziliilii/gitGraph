@@ -29,10 +29,11 @@ public:
     string file_name;
 
     vector<FileNode*> prev_nodes;
+    // int p_cnt;
     vector<FileNode*> next_nodes;
     FileHead* file_head;
 
-    FileNode(string);
+    FileNode(string, string);  // 新增"删除"节点
     FileNode(string, string, string);
     FileNode(string, string, string, string);
 

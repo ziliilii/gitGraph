@@ -50,38 +50,37 @@ void GitCommit::add_child(string child) {
 }
 
 
-void GitCommit::link_prev_node(string prev_blob, string file) {
-    auto t = new FileNode(this->commit_ish);
+void GitCommit::link_prev_node(string prev_blob, string file) {  // 新增一个代表删除的文件节点
+    auto t = new FileNode(this->commit_ish, file);   // 新增"删除"节点
     t->link(file_nodes[file + ' ' + prev_blob]);
 }
 
-void GitCommit::link_prev_node(string prev_blob, string cur_blob, string file) {
+void GitCommit::link_prev_node(string prev_blob, string cur_blob, string file) {  // 新增修改的节点
     FileNode* t;
     string s = file + ' ' + cur_blob;
     if(file_nodes.count(s)) t = file_nodes[s];
-    else t = new FileNode(cur_blob, this->commit_ish, file);
+    else t = new FileNode(cur_blob, this->commit_ish, file);  // 新增修改节点
 
     t->link(file_nodes[file + ' ' + prev_blob]);
 
 }
 
+// 新增复制 重命名的节点
 void GitCommit::link_prev_node(string prev_blob, string cur_blob, string prev_file, string cur_file, string type) {
     FileNode* t;
     string s = cur_file + ' ' + cur_blob;
     if(file_nodes.count(s)) t = file_nodes[s];
-    else t = new FileNode(cur_blob, this->commit_ish, cur_file, type);
+    else t = new FileNode(cur_blob, this->commit_ish, cur_file, type);   // 新增复制 重命名的节点
 
     t->link(file_nodes[prev_file + ' ' + prev_blob]);
 }
 
+
+// 当前节点与父亲git diff
 void GitCommit::diff_parents(string& git_dir) {
-    
-
-
-
     vector<string> res;
     string cmd;
-    if (this->parents.size() == 1) {
+    if (this->parents.size() == 1) {  // 当前节点只有一个父亲
         string prev_ish = this->parents[0]->commit_ish;
         cmd = git_dir + " git diff --raw " + prev_ish + ' '  + this->commit_ish;
         cmd += " -l0";
@@ -93,7 +92,7 @@ void GitCommit::diff_parents(string& git_dir) {
             }
         }
         pclose(fp);
-    } else {
+    } else {  // 当前节点是merge节点，有多个父亲
         for (auto& p: this->parents) {
             string prev_ish = p->commit_ish;
             cmd = git_dir + " git diff --raw " + prev_ish + ' '  + this->commit_ish;
@@ -110,7 +109,7 @@ void GitCommit::diff_parents(string& git_dir) {
                     }
                     if (out[0] == 'A') {
                        // cout << "多父亲存在新增" << endl;
-                        continue;
+                        continue;   // merge节点不存在新增
                     }
                     if (out[0] == 'D') {
 
@@ -144,9 +143,7 @@ void GitCommit::diff_parents(string& git_dir) {
     }
 
     string prev_blob, cur_blob, type, file, cur_file;
-    for (auto& s: res) {
-
-
+    for (auto& s: res) {   // 遍历git diff出来的结果
 
         istringstream in(s);
         string out;
@@ -163,33 +160,33 @@ void GitCommit::diff_parents(string& git_dir) {
         FileHead* t;
 
         switch(type[0]) {
-            case 'A':
+            case 'A':  // 新增
                 
-                t = new FileHead(file, cur_blob, this->commit_ish);
-                this->modified_file.push_back(file + ' ' + cur_blob);
+                t = new FileHead(file, cur_blob, this->commit_ish);  // 新建一个文件头
+                this->modified_file.push_back(file + ' ' + cur_blob);  // 在当前commit节点内新增这个文件版本节点
                 GitCommit::file_list[file + ' ' + cur_blob] = t;
                 GitCommit::same_name_file[file].push_back(t);
                 break;
-            case 'D':
-                this->link_prev_node(prev_blob, file);
+            case 'D':   // 删除
+                this->link_prev_node(prev_blob, file);  // 新增一个代表删除的文件节点
                 this->modified_file.push_back(file + ' ' + cur_blob);
                 break;
-            case 'C':
+            case 'C':  // 复制
                 in >> out;
                 cur_file = out;
                 this->modified_file.push_back(file + ' ' + cur_blob);
-                this->link_prev_node(prev_blob, cur_blob, file, cur_file, type);
+                this->link_prev_node(prev_blob, cur_blob, file, cur_file, type);  // 新增复制的节点
                 break;
-            case 'R':
+            case 'R':  // 重命名
                 in >> out;
                 cur_file = out;
                 this->modified_file.push_back(file + ' ' + cur_blob);
-                this->link_prev_node(prev_blob, cur_blob, file, cur_file, type);
+                this->link_prev_node(prev_blob, cur_blob, file, cur_file, type);  //  新增重命名的节点
                 break;
-            case 'M':
+            case 'M': // 修改
 
                 this->modified_file.push_back(file + ' ' + cur_blob);
-                this->link_prev_node(prev_blob, cur_blob, file);
+                this->link_prev_node(prev_blob, cur_blob, file);  // 新增修改的节点
                 break;
             default:
                 
