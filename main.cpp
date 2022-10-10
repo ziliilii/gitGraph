@@ -397,12 +397,12 @@ void bfs(FileHead* head) {
     auto t = head->head;
     w_head(head, idx);
     if (!st.count(t)) w_node(t);
-    else {
-        cout << "bfs\n" << t << endl;
-        t->print();
-        cout << endl;
-        // exit(2);
-    }
+    // else {
+    //     cout << "bfs\n" << t << endl;
+    //     t->print();
+    //     cout << endl;
+    //     // exit(2);
+    // }
     w_h2n(head, head->head, idx);
     queue<FileNode*> q;
     q.push(t);
