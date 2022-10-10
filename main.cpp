@@ -34,10 +34,12 @@ string git_dir;  // git仓库的文件路径
 
 
 
-
+void test();
 
 
 int main(int ac, char** av) {
+
+    test();
     
     if (ac >= 2 ) {
         string s1 = av[1];
@@ -82,6 +84,9 @@ int main(int ac, char** av) {
     cout << "读取修改的文件..." << endl;
     get_file_stat();
     cout << "完成" << endl;
+    
+    // return 0;
+
     while(1) {
         int c;
         string s, a, b;
@@ -271,12 +276,16 @@ void read_commits() {
 void get_file_stat() {
     cout << "初始化..." << endl;
     file_list_init();  
+    cout << "初始化完毕" << endl;
     // first_commit->print_file_list();
 
+    
     queue<GitCommit*> q;
     q.push(first_commit);
+    int cnt = 0;
     while(q.size()) {
         auto cur = q.front();
+        
 
 
         q.pop();
@@ -295,8 +304,10 @@ void get_file_stat() {
                 child->pcnt = child->pcnt - 1;
             }
         }
+        cnt ++;
+        cout << "图构建中: " << cnt << " / " << GitCommit::commit_list.size() << "\r";
     }
-    // first_commit->print_file_list();
+    // first_commit->print_file_list();     // 打印file list
 }
 
 void file_list_init() {  // 初始化文件列表，从仓库的第一个commit开始
@@ -387,8 +398,10 @@ void bfs(FileHead* head) {
     w_head(head, idx);
     if (!st.count(t)) w_node(t);
     else {
-        cout << "bfs\n";
-        exit(2);
+        cout << "bfs\n" << t << endl;
+        t->print();
+        cout << endl;
+        // exit(2);
     }
     w_h2n(head, head->head, idx);
     queue<FileNode*> q;
@@ -446,6 +459,13 @@ void w_n2n(FileNode* cur, FileNode* ne) {  // 写入node_relation.csv
 
 
 
+void test() {
+    int n = 3;
+    cout << "\n\ntest" << 
 
+    n
+    
+    << "\n\n";
+}
 
 

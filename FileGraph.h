@@ -38,6 +38,8 @@ public:
     FileNode(string, string, string, string);
 
     void link(FileNode*);
+
+    void print();
 };
 
 extern unordered_map<string, FileNode*> file_nodes;  // 文件名 + blob_ish 作为 key

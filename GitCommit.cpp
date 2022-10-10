@@ -205,8 +205,11 @@ void GitCommit::diff_parents(string& git_dir) {
 void GitCommit::print_file_list() {
     int n = 0;
     for(auto& f: GitCommit::file_list) {
-        cout << f.first << ' ';
+        cout << f.first << endl;
         cout << f.second->used_name[0] << endl;
+        
+        cout << "head's node commit hash: " << f.second->head->commit_ish << endl;
+        cout << "--------------\n"; 
         n++;
     }
     cout << n << endl;

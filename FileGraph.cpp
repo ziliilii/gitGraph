@@ -58,6 +58,29 @@ unordered_map<string, FileNode*> file_nodes;  // 文件名 + blob_ish 作为 key
 
 
 
+void FileNode::print() {
+    cout << "打印file node基本信息\n";
+    cout << "blob: " << this->blob_ish << endl;
+    cout << "commit: " << this->commit_ish << endl;;
+    cout << "file head: " << this->file_head << endl;
+    cout << "file head's name: " << this->file_head->used_name[0];
+    cout << "file name: " << this->file_name << endl;
+    cout << "后续节点个数: " << this->next_nodes.size() << endl;
+    for (auto& node: this->next_nodes) {
+        cout << "后续节点文件名: " << node->file_name << "  后续节点blob: " << node->blob_ish << endl;
+    }
+    cout << "前置节点个数: " << this->prev_nodes.size() << endl;
+    for (auto& node: this->prev_nodes) {
+        cout << "前置节点文件名: " << node->file_name << "  前置节点blob: " << node->blob_ish << endl;
+    }
+    cout << "打印完毕\n";
+}
+
+
+
+
+
+
 
 
 
