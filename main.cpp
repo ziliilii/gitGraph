@@ -28,7 +28,7 @@ void w_n2n(FileNode* cur, FileNode* ne);
 const string start_flag = "***adfa*asdfo**";
 const string end_flag = "**dasjf93hd9f()&&^";
 
-GitCommit* first_commit;
+vector<GitCommit*> first_commits;
 int ish_len;
 string git_dir;  // git仓库的文件路径
 
@@ -62,6 +62,7 @@ int main(int ac, char** av) {
                 case 'g':
                     cout << "将仓库内commit信息写入文件..." << endl;
                     get_commits();
+                    cout << "写入完毕\n";
                     break;
                 default:
                     cout << "参数错误" << endl;
@@ -79,6 +80,7 @@ int main(int ac, char** av) {
 
     cout << "获取commit信息..." << endl;
     read_commits();    // 获取commit的信息
+    cout << "获取完毕\n";
     //print_commits();
 
     cout << "读取修改的文件..." << endl;
@@ -150,7 +152,7 @@ int main(int ac, char** av) {
 
 void get_commits() {
     string cmd = git_dir + " git log --pretty=format:\"" + start_flag + 
-                 "%n %h %n %t %n %p %n %an %n %ae %n %ad %n %s %n %b %n " + end_flag + "\" --reverse" ; // *号后是提交的哈希， #号后是commit的信息
+                 "%n %h %n %t %n %p %n %an %n %ae %n %ad %n %s %n %b %n " + end_flag + "\" --date-order --reverse" ; // *号后是提交的哈希， #号后是commit的信息
     char str[300];
    // cout << cmd << endl;
     strcpy(str, cmd.c_str());
@@ -179,6 +181,7 @@ void read_commits() {
     ifstream ifile;
     
     ifile.open("data/commits.txt", ios::in);
+    cout << "open data/commits.txt\n";
 
     string line;
     int cnt = 0;  // 提交的个数
@@ -190,12 +193,11 @@ void read_commits() {
     while(getline(ifile, line)) {
 
         // if(cnt == 3) break;
-        
+        // cout << line << endl;
 
         string out;
         istringstream in(line);
         in >> out;
-
 
 
 
@@ -217,19 +219,33 @@ void read_commits() {
                 break;
             case 1:   // tree对象
                 tree_ish = out;
-                GitCommit::commit_list[commit_ish]->add_tree(tree_ish);
+                if (GitCommit::commit_list.count(commit_ish)) GitCommit::commit_list[commit_ish]->add_tree(tree_ish);
+                else cout << "\ncase 1\n\n";
 
                 idx++;
                 break;
             case 2:  // 获得它的父亲
-                if (GitCommit::commit_list.size() == 1) {    //  第一个提交没有父亲
-                    first_commit = GitCommit::commit_list[commit_ish];
+                // if (GitCommit::commit_list.size() == 1) {    //  第一个提交没有父亲
+                //     cout << "fisrt commit: " << out << endl;
+                //     if (GitCommit::commit_list.count(commit_ish)) first_commit = GitCommit::commit_list[commit_ish];
+                //     else cout << "\ncase 2-1\n\n";
+                //     idx ++;
+                //     break;
+                // }
+
+                if (out.empty()) {
+                    cout << "fisrt commit: " << commit_ish << " parent: " << out << endl;
+                    if (GitCommit::commit_list.count(commit_ish)) first_commits.push_back(GitCommit::commit_list[commit_ish]);
+                    else cout << "\ncase 2-1\n\n";
                     idx ++;
                     break;
                 }
+
                 do {
-                    GitCommit::commit_list[commit_ish]->add_parents(out);
-                    GitCommit::commit_list[out]->add_child(commit_ish);
+                    if (GitCommit::commit_list.count(commit_ish)) GitCommit::commit_list[commit_ish]->add_parents(out);
+                    else cout << "\ncase 2-2\n\n";
+                    if (GitCommit::commit_list.count(commit_ish)) GitCommit::commit_list[out]->add_child(commit_ish);
+                    else cout << "\ncase 2-3\n\n";
                 } while(in >> out);
                 
                 idx ++;
@@ -239,7 +255,8 @@ void read_commits() {
                 do
                     author += out + ' ';
                 while(in >> out);
-                GitCommit::commit_list[commit_ish]->add_author(author);
+                if (GitCommit::commit_list.count(commit_ish)) GitCommit::commit_list[commit_ish]->add_author(author);
+                else cout << "\ncase 3\n\n";
                 idx++;
                 break;
             case 4:  // 邮箱
@@ -247,7 +264,8 @@ void read_commits() {
                 do
                     email += out + ' ';
                 while(in >> out);
-                GitCommit::commit_list[commit_ish]->add_email(email);
+                if (GitCommit::commit_list.count(commit_ish)) GitCommit::commit_list[commit_ish]->add_email(email);
+                else cout << "\ncase 4\n\n";
                 idx ++;
 
                 break;
@@ -256,7 +274,8 @@ void read_commits() {
                 do
                     date += out + ' ';
                 while(in >> out);
-                GitCommit::commit_list[commit_ish]->add_date(date);
+                if (GitCommit::commit_list.count(commit_ish)) GitCommit::commit_list[commit_ish]->add_date(date);
+                else cout << "\ncase 5\n\n";
                 idx ++;
 
                 break;
@@ -281,15 +300,15 @@ void get_file_stat() {
 
     
     queue<GitCommit*> q;
-    q.push(first_commit);
+    for (auto& commit: first_commits) q.push(commit);
     int cnt = 0;
     while(q.size()) {
         auto cur = q.front();
         
-
+        // cout << cur->commit_ish << endl << endl;
 
         q.pop();
-        cur->diff_parents(git_dir);
+        cur->diff_parents(git_dir, ish_len);
 
 
 
@@ -306,6 +325,7 @@ void get_file_stat() {
         }
         cnt ++;
         cout << "图构建中: " << cnt << " / " << GitCommit::commit_list.size() << "\r";
+        
     }
     // first_commit->print_file_list();     // 打印file list
 }
@@ -313,12 +333,16 @@ void get_file_stat() {
 void file_list_init() {  // 初始化文件列表，从仓库的第一个commit开始
     if(GitCommit::commit_list.empty()) return ; 
 
-    string first_commit_ish = first_commit->commit_ish;
-    string first_tree_ish = first_commit->tree_ish;
-    string path = "";
-    ish_len = first_commit_ish.size();
+    for (auto& commit: first_commits) {
+        string commit_ish = commit->commit_ish;
+        string tree_ish = commit->tree_ish;
+        string path = "";
+        ish_len = commit_ish.size();
 
-    read_tree(first_commit_ish, first_tree_ish, path);
+        read_tree(commit_ish, tree_ish, path);
+    }
+
+    
 }
 
 
@@ -360,6 +384,9 @@ void read_tree(string& commit_ish, string& tree_ish, string path) {  // 深度�
 
 
 void gen_csv() {
+
+    system("rm date/csv/*");
+
 
     ofstream o1("data/csv/heads_header.csv");
     o1.clear();
@@ -460,7 +487,7 @@ void w_n2n(FileNode* cur, FileNode* ne) {  // 写入node_relation.csv
 
 
 void test() {
-    int n = 3;
+    int n = 4;
     cout << "\n\ntest" << 
 
     n

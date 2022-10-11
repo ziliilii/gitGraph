@@ -46,7 +46,7 @@ public:
     static unordered_map<string, vector<FileHead*>> same_name_file;   // 文件名 作为 key
     
 
-    void diff_parents(string&);
+    void diff_parents(string&, int);
     void link_prev_node(string, string);
     void link_prev_node(string, string, string);
     void link_prev_node(string, string, string, string, string);

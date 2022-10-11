@@ -56,12 +56,22 @@ void GitCommit::link_prev_node(string prev_blob, string file) {  // 新增一个
 }
 
 void GitCommit::link_prev_node(string prev_blob, string cur_blob, string file) {  // 新增修改的节点
+    if (this->commit_ish == "50eca3eb89d7") cout << "in link_prev_node cur_blob: " << endl << cur_blob << endl;
+
     FileNode* t;
     string s = file + ' ' + cur_blob;
+    if (this->commit_ish == "50eca3eb89d7") cout << "in link_prev_node s: " << endl << s << endl;
     if(file_nodes.count(s)) t = file_nodes[s];
     else t = new FileNode(cur_blob, this->commit_ish, file);  // 新增修改节点
+    if (this->commit_ish == "50eca3eb89d7") cout << "in link_prev_node cur_blob 2: " << endl << cur_blob << endl;
 
-    t->link(file_nodes[file + ' ' + prev_blob]);
+    if (!file_nodes.count(file + ' ' + prev_blob)) {
+        cout << file << ' ' + prev_blob << "\n" << "100\n";
+        exit(1);
+    }
+    else {
+        t->link(file_nodes[file + ' ' + prev_blob]);
+    }
 
 }
 
@@ -77,29 +87,33 @@ void GitCommit::link_prev_node(string prev_blob, string cur_blob, string prev_fi
 
 
 // 当前节点与父亲git diff
-void GitCommit::diff_parents(string& git_dir) {
-    vector<string> res;
+void GitCommit::diff_parents(string& git_dir, int ish_len) {
+    vector<string> res, merge_A;
     string cmd;
+
+
     if (this->parents.size() == 1) {  // 当前节点只有一个父亲
         string prev_ish = this->parents[0]->commit_ish;
-        cmd = git_dir + " git diff --raw " + prev_ish + ' '  + this->commit_ish;
+        cmd = git_dir + " git diff-tree -r " + prev_ish + ' '  + this->commit_ish;
         cmd += " -l0";
         FILE *fp = NULL;
         if ((fp = popen(cmd.c_str(), "r")) != NULL) {
-            char read_str[1024] = "";
+            char read_str[4096] = "";
             while(fgets(read_str, sizeof(read_str), fp)) {
                 res.push_back(read_str);
+                if (this->commit_ish == "50eca3eb89d7") cout<< res[res.size() - 1] << "\n";
             }
         }
         pclose(fp);
     } else {  // 当前节点是merge节点，有多个父亲
         for (auto& p: this->parents) {
             string prev_ish = p->commit_ish;
-            cmd = git_dir + " git diff --raw " + prev_ish + ' '  + this->commit_ish;
+            // cmd = git_dir + " git diff --raw " + prev_ish + ' '  + this->commit_ish;
+            cmd = git_dir + " git diff-tree -r " + prev_ish + ' '  + this->commit_ish;
             cmd += " -l0";
             FILE *fp = NULL;
             if ((fp = popen(cmd.c_str(), "r")) != NULL) {
-                char read_str[1024] = "";
+                char read_str[4096] = "";
                 while(fgets(read_str, sizeof(read_str), fp)) {
                     istringstream in(read_str);
                     string out;
@@ -109,7 +123,8 @@ void GitCommit::diff_parents(string& git_dir) {
                     }
                     if (out[0] == 'A') {
                        // cout << "多父亲存在新增" << endl;
-                        continue;   // merge节点不存在新增
+                        merge_A.push_back(read_str);
+                        continue;   // merge新增
                     }
                     if (out[0] == 'D') {
 
@@ -132,6 +147,7 @@ void GitCommit::diff_parents(string& git_dir) {
                         // }
                         // cout << read_str << endl;
                         res.push_back(read_str);
+                        
                     }
                     if (out[0] == 'M') {
                         res.push_back(read_str);
@@ -142,6 +158,7 @@ void GitCommit::diff_parents(string& git_dir) {
         }
     }
 
+
     string prev_blob, cur_blob, type, file, cur_file;
     for (auto& s: res) {   // 遍历git diff出来的结果
 
@@ -150,9 +167,9 @@ void GitCommit::diff_parents(string& git_dir) {
         in >> out;
         in >> out;
         in >> out;
-        prev_blob = out;
+        prev_blob = out.substr(0, ish_len);
         in >> out;
-        cur_blob = out;
+        cur_blob = out.substr(0, ish_len);
         in >> out;
         type = out;
         in >> out;
@@ -160,8 +177,7 @@ void GitCommit::diff_parents(string& git_dir) {
         FileHead* t;
 
         switch(type[0]) {
-            case 'A':  // 新增
-                
+            case 'A':  // 新增               
                 t = new FileHead(file, cur_blob, this->commit_ish);  // 新建一个文件头
                 this->modified_file.push_back(file + ' ' + cur_blob);  // 在当前commit节点内新增这个文件版本节点
                 GitCommit::file_list[file + ' ' + cur_blob] = t;
@@ -192,6 +208,29 @@ void GitCommit::diff_parents(string& git_dir) {
                 
                 cout << "其他情况" << endl;
                 break;
+        }
+    }
+
+    for (auto& s: merge_A) {
+        istringstream in(s);
+        string out;
+        in >> out;
+        in >> out;
+        in >> out;
+        prev_blob = out.substr(0, ish_len);
+        in >> out;
+        cur_blob = out.substr(0, ish_len);
+        in >> out;
+        type = out;
+        in >> out;
+        file = out;
+        FileHead* t;
+        string cur_file_node = file + ' ' + cur_blob;
+        if (!file_nodes.count(cur_file_node)) {
+            t = new FileHead(file, cur_blob, this->commit_ish);  // 新建一个文件头
+            this->modified_file.push_back(file + ' ' + cur_blob);  // 在当前commit节点内新增这个文件版本节点
+            GitCommit::file_list[file + ' ' + cur_blob] = t;
+            GitCommit::same_name_file[file].push_back(t);
         }
     }
 
