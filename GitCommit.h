@@ -10,47 +10,46 @@
 #include <sstream>
 
 
-using namespace std;
 
 class GitCommit {
 public:
     GitCommit();
-    GitCommit(string);
-    GitCommit(string, string, string, string, string);
+    GitCommit(std::string);
+    GitCommit(std::string, std::string, std::string, std::string, std::string);
     ~GitCommit() {};
 
-    void add_tree(string);
-    void add_author(string);
-    void add_email(string);
-    void add_date(string);
-    void add_parents(string);
-    void add_child(string);
+    void add_tree(std::string);
+    void add_author(std::string);
+    void add_email(std::string);
+    void add_date(std::string);
+    void add_parents(std::string);
+    void add_child(std::string);
 
-    string commit_ish;  // 提交的hash id
-    string tree_ish;     // 提交的tree对象
-    //string type;       // 提交的类型
-    string author;     // 提交的作者
-    string email;      // 作者的邮箱
-    string date;       // 提交的日期
-    string commit_message;
-    vector<string> tags;         // tag
+    std::string commit_ish;  // 提交的hash id
+    std::string tree_ish;     // 提交的tree对象
+    //std::string type;       // 提交的类型
+    std::string author;     // 提交的作者
+    std::string email;      // 作者的邮箱
+    std::string date;       // 提交的日期
+    std::string commit_message;
+    std::vector<std::string> tags;         // tag
     int pcnt;
-    vector<GitCommit*> parents;      // 父提交
+    std::vector<GitCommit*> parents;      // 父提交
 
-    vector<GitCommit*> children;     // 儿子
-    vector<string> modified_file;
+    std::vector<GitCommit*> children;     // 儿子
+    std::vector<std::string> modified_file;
 
-    static unordered_map<string, GitCommit*> commit_list;
+    static std::unordered_map<std::string, GitCommit*> commit_list;
     
-    static unordered_map<string, FileHead*> file_list;   // 文件名 + blob_ish 作为 key
-    static unordered_map<string, vector<FileHead*>> same_name_file;   // 文件名 作为 key
+    static std::unordered_map<std::string, FileHead*> file_list;   // 文件名 + blob_ish 作为 key
+    static std::unordered_map<std::string, std::vector<FileHead*>> same_name_file;   // 文件名 作为 key
     
 
-    void diff_parents(string&, int);
-    void link_prev_node(string, string);
-    void link_prev_node(string, string, string);
-    void link_prev_node(string, string, string, string, string);
-
+    void diff_parents(std::string&, int);
+    void link_prev_node(std::string, std::string);
+    void link_prev_node(std::string, std::string, std::string);
+    void link_prev_node(std::string, std::string, std::string, std::string, std::string);
+    void print();
     void print_file_list();
 
 };
