@@ -24,6 +24,7 @@ public:
     void add_date(std::string);
     void add_parents(std::string);
     void add_child(std::string);
+    void add_rv();
 
     std::string commit_ish;  // 提交的hash id
     std::string tree_ish;     // 提交的tree对象
@@ -32,6 +33,7 @@ public:
     std::string email;      // 作者的邮箱
     std::string date;       // 提交的日期
     std::string commit_message;
+    bool is_rv;
     std::vector<std::string> tags;         // tag
     int pcnt;
     std::vector<GitCommit*> parents;      // 父提交

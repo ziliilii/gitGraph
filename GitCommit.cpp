@@ -6,6 +6,7 @@ std::unordered_map<std::string, std::vector<FileHead*>> GitCommit::same_name_fil
 
 GitCommit::GitCommit() {
     this->pcnt = 0;
+    this->is_rv = false;
     this->parents.clear();
     this->children.clear();
 }
@@ -13,6 +14,7 @@ GitCommit::GitCommit() {
 GitCommit::GitCommit(std::string commit_ish) {
     this->commit_ish = commit_ish;
     this->pcnt = 0;
+    this->is_rv = false;
     this->parents.clear();
     this->children.clear();
 }
@@ -24,6 +26,7 @@ GitCommit::GitCommit(std::string commit_ish, std::string tree_ish, std::string a
     this->email = email;
     this->date = date;
     this->pcnt = 0;
+    this->is_rv = false;
     this->parents.clear();
     this->children.clear();
 }
@@ -47,6 +50,10 @@ void GitCommit::add_parents(std::string parent) {
 }
 void GitCommit::add_child(std::string child) {
     this->children.push_back(this->commit_list[child]);
+}
+
+void GitCommit::add_rv() {
+    this->is_rv = true;
 }
 
 

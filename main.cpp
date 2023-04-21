@@ -1,5 +1,6 @@
 #include "GitCommit.h"
 #include "FileGraph.h"
+#include "FindRiscv.hpp"
 
 #include <regex>
 #include <sstream>
@@ -85,72 +86,77 @@ int main(int ac, char** av) {
 
     std::cout << "获取commit信息..." << std::endl;
     read_commits();    // 获取commit的信息
-    std::cout << "获取完毕\n";
+    std::cout << "获取完毕\n";  
+
+    find_riscv_commits(first_commits);
+
     //print_commits();
 
-    std::cout << "读取修改的文件..." << std::endl;
-    get_file_stat();
-    std::cout << "完成" << std::endl;
+    // std::cout << "读取修改的文件..." << std::endl;
+    // get_file_stat();
+    // std::cout << "完成" << std::endl;
 
-    std::cout << get_time() << std::endl;
+    // std::cout << get_time() << std::endl;
     
     // return 0;
 
-    while(1) {
-        int c;
-        std::string s, a, b;
-        int idx;
-        std::cout << "输入一个数" << std::endl;
-        scanf("%d", &c);
-        switch(c) {
-            case 1:
-                std::cout << "文件版本图共有" << GitCommit::file_list.size() << std::endl;
-                break;
-            case 2:
-                std::cout << "请输入commit hash" << std::endl;
-                std::cin >> s;
-                s = s.substr(0, ish_len);
-                if (!GitCommit::commit_list.count(s)) {
-                    std::cout << "commit hash 输入有误" << std::endl;
-                    break;
-                }
-                std::cout << "此 commit 修改的文件为:\n";
-                for (auto& m: GitCommit::commit_list[s]->modified_file) {
-                    std::cout << m << std::endl;
-                }
-                break;
-            case 3:
-                std::cout << "输入文件名\n";
-                std::cin >> a;
-                std::cout << "输入文件blob\n";
-                std::cin >> b;
-                s = a + ' ' + b;
-                if (!file_nodes.count(s)) {
-                    std::cout << "文件名输入有误\n";
-                    break;
-                }
-                while(1) {
-                    std::cout << "此文件版本有 " << file_nodes[s]->prev_nodes.size() << " 个前置版本\n";
-                    for (auto& x: file_nodes[s]->prev_nodes) {
-                        std::cout << "blob hash: " << x->blob_ish << ' ' << "commit hash: " << x->commit_ish << std::endl;
-                    }
-                    std::cout << "此文件版本有 " << file_nodes[s]->next_nodes.size() << " 个后置版本\n";
-                    for (auto& x: file_nodes[s]->next_nodes) {
-                        std::cout << "blob hash: " << x->blob_ish << ' ' << "commit hash: " << x->commit_ish << std::endl;
-                    }
-                    std::cin >> b;
-                    s = a + ' ' + b;
+    // while(1) {
+    //     int c;
+    //     std::string s, a, b;
+    //     int idx;
+    //     std::cout << "输入一个数" << std::endl;
+    //     scanf("%d", &c);
+    //     switch(c) {
+    //         case 1:
+    //             std::cout << "文件版本图共有" << GitCommit::file_list.size() << std::endl;
+    //             break;
+    //         case 2:
+    //             std::cout << "请输入commit hash" << std::endl;
+    //             std::cin >> s;
+    //             s = s.substr(0, ish_len);
+    //             if (!GitCommit::commit_list.count(s)) {
+    //                 std::cout << "commit hash 输入有误" << std::endl;
+    //                 break;
+    //             }
+    //             std::cout << "此 commit 修改的文件为:\n";
+    //             for (auto& m: GitCommit::commit_list[s]->modified_file) {
+    //                 std::cout << m << std::endl;
+    //             }
+    //             break;
+    //         case 3:
+    //             std::cout << "输入文件名\n";
+    //             std::cin >> a;
+    //             std::cout << "输入文件blob\n";
+    //             std::cin >> b;
+    //             s = a + ' ' + b;
+    //             if (!file_nodes.count(s)) {
+    //                 std::cout << "文件名输入有误\n";
+    //                 break;
+    //             }
+    //             while(1) {
+    //                 std::cout << "此文件版本有 " << file_nodes[s]->prev_nodes.size() << " 个前置版本\n";
+    //                 for (auto& x: file_nodes[s]->prev_nodes) {
+    //                     std::cout << "blob hash: " << x->blob_ish << ' ' << "commit hash: " << x->commit_ish << std::endl;
+    //                 }
+    //                 std::cout << "此文件版本有 " << file_nodes[s]->next_nodes.size() << " 个后置版本\n";
+    //                 for (auto& x: file_nodes[s]->next_nodes) {
+    //                     std::cout << "blob hash: " << x->blob_ish << ' ' << "commit hash: " << x->commit_ish << std::endl;
+    //                 }
+    //                 std::cin >> b;
+    //                 s = a + ' ' + b;
 
-                }
+    //             }
 
-            case 4:
-                std::cout << "生成csv文件\n";
-                gen_csv();
-                std::cout << "生成完毕\n";
+    //         case 4:
+    //             std::cout << "生成csv文件\n";
+    //             gen_csv();
+    //             std::cout << "生成完毕\n";
             
             
-        }
-    }
+    //     }
+    // }
+
+
 
     return 0;
 
@@ -161,6 +167,7 @@ void get_commits() {
     std::string cmd = git_dir + " git log --pretty=format:\"" + start_flag + 
                  "%n %h %n %t %n %p %n %an %n %ae %n %ad %n %s %n %b %n " + end_flag + "\" --date-order --reverse" ; // *号后是提交的哈希， #号后是commit的信息
     char str[300];
+    //git log --pretty=format:"%n %h %n %t %n %p %n %an %n %ae %n %ad %n %s %b %n"
    // cout << cmd << endl;
     strcpy(str, cmd.c_str());
     system(strcat(str, "> data/commits.txt"));  //git log 输出到commits.txt
@@ -190,6 +197,7 @@ void read_commits() {
     
     ifile.open("data/commits.txt", std::ios::in);
     std::cout << "open data/commits.txt\n";
+    std::regex riscv_reg("risc-?v");
 
     std::string line;
     int cnt = 0;  // 提交的个数
@@ -277,12 +285,15 @@ void read_commits() {
                     date += out + ' ';
                 while(in >> out);
                 if (GitCommit::commit_list.count(commit_ish)) GitCommit::commit_list[commit_ish]->add_date(date);
-                else std::cout << "\ncase 5\n\n";
+                else std::cout << "\ncase 5\n\n";  
                 idx ++;
 
                 break;
-
+ 
             case 6:  // commit message
+                if (std::regex_search(line, riscv_reg)) {
+                    GitCommit::commit_list[commit_ish]->add_rv();
+                }
                 break;
 
 
