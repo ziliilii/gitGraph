@@ -1,4 +1,6 @@
 /data/csv/*
 /data/commits.txt
 /.vscode/*
+**/__pycache__
+*.swp
 
